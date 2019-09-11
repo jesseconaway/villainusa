@@ -312,6 +312,7 @@ border-radius: inherit;
 }
 .productOrderBtn {
     margin-top: 15px;
+    color: white;
 }
 .productOrderBtn a {
     font-size: 1.5em;
@@ -511,7 +512,7 @@ th, td {
 }
 .productOrderBtn a {
     margin-top: 5px;
-    font-size: 1em;
+    font-size: 1.7em;
 }
 .relatedItems {
     padding-top: 15px;
