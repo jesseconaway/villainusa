@@ -196,10 +196,113 @@
                     </div>
                 </div>
             </div>
-            <p class="productOrderBtn"><a class="btn btn-outline-success d-block" href="order.html">Order Now</a></p>
+            <p class="productOrderBtn"><a class="btn btn-outline-success d-block" data-toggle="modal" data-target="#productOrderModal">Order Now</a></p>
         </div>
     </div>
-    <p class="productOrderBtn d-block d-lg-none"><a class="btn btn-outline-success d-block" href="order.html">Order Now</a></p>
+
+
+<!--Product Order Modal-->
+<div class="modal" tabindex="-1" id="productOrderModal" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: rgba(180,180,180,1);">
+          <h5 class="modal-title">Training Bumper Plates</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body" style="background-color: white;">
+            <p class="text-center">Choose which bumper plates to add to your cart.<br>You can change the item quantity from within your cart</p>
+            <div class="container-fluid">
+            <div class="row mx-auto">
+                <div class="col-12 col-sm-6">
+                    <button
+                        style="background-color: rgb(150, 150, 150); width: 100%;"
+                        type="button"
+                        data-toggle="modal"
+                        data-target="productOrderModal"
+                        class="btn btn-outline-success snipcart-add-item"
+                        data-item-id="2.5kgTechniquePlate"
+                        data-item-name="2.5kg Technique Plate"
+                        data-item-price="45.00"
+                        data-item-weight="2500"
+                        data-item-url="http://villainusa.com/techniqueBumperPlates.html"
+                        data-item-categories="plates"
+                        data-item-width="450"
+                        data-item-length="450"
+                        data-item-height="65"
+                        data-item-quantity="1"
+                    >2.5kg Plastic</button>
+                </div>
+                <div class="col-12 col-sm-6">
+                        <button
+                        style="background-color: rgb(150, 150, 150); width: 100%;"
+                        type="button"
+                        data-toggle="modal"
+                        data-target="productOrderModal"
+                        class="btn btn-outline-success snipcart-add-item"
+                        data-item-id="5kgPlasticTechniquePlate"
+                        data-item-name="5kg Plastic Technique Plate"
+                        data-item-price="57.49"
+                        data-item-weight="5000"
+                        data-item-url="http://villainusa.com/techniqueBumperPlates.html"
+                        data-item-categories="plates"
+                        data-item-width="450"
+                        data-item-length="450"
+                        data-item-height="85"
+                        data-item-quantity="1"
+                    >5kg Plastic</button>
+                </div>
+                <div class="col-12 col-sm-6">
+                        <button
+                        style="background-color: rgb(150, 150, 150); width: 100%;"
+                        type="button"
+                        data-toggle="modal"
+                        data-target="productOrderModal"
+                        class="btn btn-outline-success snipcart-add-item"
+                        data-item-id="5kgRubberTechniquePlate"
+                        data-item-name="5kg Rubber Technique Plate"
+                        data-item-price="47.49"
+                        data-item-weight="5000"
+                        data-item-url="http://villainusa.com/techniqueBumperPlates.html"
+                        data-item-categories="plates"
+                        data-item-width="450"
+                        data-item-length="450"
+                        data-item-height="30"
+                        data-item-quantity="1"
+                    >5kg Rubber</button>
+                </div>
+                <div class="col-12 col-sm-6">
+                        <button
+                        style="background-color: rgb(150, 150, 150); width: 100%;"
+                        type="button"
+                        data-toggle="modal"
+                        data-target="productOrderModal"
+                        class="btn btn-outline-success snipcart-add-item"
+                        data-item-id="15lbTechniquePlate"
+                        data-item-name="15lb Technique Plate"
+                        data-item-price="44.71"
+                        data-item-weight="6804"
+                        data-item-url="http://villainusa.com/techniqueBumperPlates.html"
+                        data-item-categories="plates"
+                        data-item-width="450"
+                        data-item-length="450"
+                        data-item-height="26"
+                        data-item-quantity="1"
+                    >15lbs Rubber</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="modal-footer" style="background-color: rgba(180,180,180,1);">
+                <button type="button" class="btn btn-outline-success" data-dismiss="modal">Close</button>
+              </div>
+      </div>
+    </div>
+  </div>
+
+
+    <p class="productOrderBtn d-block d-lg-none"><a class="btn btn-outline-success d-block" data-toggle="modal" data-target="#productOrderModal">Order Now</a></p>
     <div class="row">
         <div class="col">
     <div style="border: none; color: white; margin-top: 40px;">
@@ -213,7 +316,7 @@
                                     <th style="background-color: black;">PRICE</th>
                                 </tr>
                                 <tr>
-                                    <td style="background-color: rgba(100,100,100,1);">2.5kg</td>
+                                    <td style="background-color: rgba(100,100,100,1);">2.5kg Plastic</td>
                                     <td style="background-color: rgba(100,100,100,1);">$45.00</td>
                                 </tr>
                                 <tr>
@@ -292,7 +395,7 @@
           </div>
         </div>
       </div>
-
+    </div>
 <!--Related Item Cards-->
 <div class="container">
     <hr class="d-none d-md-block productPageRule">
