@@ -279,7 +279,8 @@ border-radius: inherit;
 .card-footer a {
     color: white;
 }
-.card-footer a:hover {
+.card-footer:hover {
+    cursor: pointer;
     color: red;
     text-decoration: none;
 }
@@ -311,6 +312,7 @@ border-radius: inherit;
     height: auto;
 }
 .productOrderBtn {
+    cursor: pointer;
     margin-top: 15px;
     color: white;
 }
