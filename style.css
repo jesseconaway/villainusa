@@ -617,7 +617,12 @@ th, td {
 .stripedPlateThicknessTable th, .stripedPlateThicknessTable td {
     padding: 2px;
 }
-
+.compVinylKb {
+    height: 541px;
+}
+.trainingPowderedKb {
+    height: 432px;
+}
 
 
 
@@ -673,8 +678,12 @@ th, td {
 .platePriceTable1 th, .platePriceTable1 td {
     padding: 8px;
 }
-
-
+.compVinylKb {
+    height: 564px;
+}
+.trainingPowderedKb {
+    height: 455px;
+}
 
 
 }
