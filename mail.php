@@ -25,7 +25,7 @@ if ($message === ''){
 print json_encode(array('message' => 'Message cannot be empty', 'code' => 0));
 exit();
 }
-if ($security != 'may'){
+if (strlen($security) != '3'){
 print json_encode(array('security' => 'Incorrect security answer', 'code' => 0));
 exit();
 }
