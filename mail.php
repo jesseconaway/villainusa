@@ -28,10 +28,10 @@ if ($message === ''){
 echo "Message cannot be empty.";
 die();
 }
-if ($security !== 'may'){
-    echo "Incorrect security answer.";
-    die();
-    }
+if ($security != 'may'){
+echo "Incorrect security answer.";
+die();
+}
 $content="From: $name \nEmail: $email \nMessage: $message";
 $recipient = "jesse@jesseconaway.com";
 $mailheader = "From: $email \r\n";
