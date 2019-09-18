@@ -431,8 +431,66 @@ th, td {
     color: black;
     background-color: red;
 }
+.infoPagesContent {
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+    color: white;
+    padding: 15px;
+}
 
+/* Info Pages */
 
+.my-pagination{
+    margin-top: 15px;
+    padding: 10px 0 0 0;
+    margin: 0;
+}
+.my-page-item {
+    display: block;
+    border-radius: 0;
+    margin: 5px;
+    border: 1px solid rgba(0,0,0,0);
+}
+.my-page-item a {
+    border: none;
+    color: white;
+    background-color: rgba(0,0,0,0.6);
+}
+.my-page-item:hover {
+    color: red;
+    border: 1px solid red;
+}
+.infoPagesContent {
+    margin: 15px 0 15px 0;
+    height: 95%;
+}
+.my-page-item-active {
+    display: block;
+    border-radius: 0;
+    margin: 5px;
+    border: 1px solid rgba(0,0,0,0);
+}
+.my-page-item-active a {
+    border: none;
+    color: black;
+    background-color: rgba(255,255,255,0.8);
+}
+.my-page-item-active:hover {
+    display: block;
+    border-radius: 0;
+    border: 1px solid rgba(0,0,0,0);
+}
+.my-page-item-active a:hover {
+    border: none;
+    color: black !important;
+    text-decoration: none !important;
+    background-color: rgba(255,255,255,0.8) !important;
+}
+.infoHeader {
+    margin-top: -12px;
+    font-size: 3.5rem;
+}
 
 
 
@@ -459,6 +517,10 @@ th, td {
 .plateTable {
     margin-top: -20px;
     margin-bottom: 25px;
+}
+.infoHeader {
+    margin-top: -12px;
+    font-size: 4rem;
 }
 
 
@@ -684,6 +746,5 @@ th, td {
 .trainingPowderedKb {
     height: 455px;
 }
-
 
 }
