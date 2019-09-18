@@ -445,6 +445,7 @@ th, td {
     margin-top: 15px;
     padding: 10px 0 0 0;
     margin: 0;
+    text-decoration: none;
 }
 .my-page-item {
     display: block;
