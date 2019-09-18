@@ -28,7 +28,7 @@ if ($message === ''){
 echo "Message cannot be empty.";
 die();
 }
-if ($security != 'may'){
+if ($security === ''){
 echo "Incorrect security answer.";
 die();
 }
