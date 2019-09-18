@@ -12,7 +12,7 @@
         }
 
         # FIX: Replace this email with recipient email
-        $mail_to = "villainfitnessusa@gmail.com";
+        $mail_to = "jesse@jesseconaway.com";
         
         # Sender Data
         $subject = trim($_POST["subject"]);
