@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" type="text/css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto:400,700&display=swap" rel="stylesheet">
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 </head>
 <body>
     
@@ -140,14 +140,23 @@
                     </div>
                 </div>
                 <!--Grid row-->
+<p class="text-center" style="margin-bottom: 0;">Security question:<br>What month comes after April?</p>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="security" name="security" class="form-control">
+                            <label for="security" class="">Answer</label>
+                        </div>
+                    </div>
+                </div>
 
             </form>
 
             <div class="text-center text-md-left" style="margin-bottom: 10px;">
                 <a class="btn btn-outline-success" onclick="validateForm()">Send</a>
             </div>
-            <div class="g-recaptcha" data-sitekey="6LerJbkUAAAAAA0FjT5YueOHvS4V1cbMWS9avFW3"></div>
-            <div class="status"></div>
+            
+            <div class="status" id="status"></div>
         </div>
     </div>
 
@@ -232,6 +241,11 @@ if (subject == "") {
 var message =  document.getElementById('message').value;
 if (message == "") {
     document.getElementById('status').innerHTML = "Message cannot be empty";
+    return false;
+}
+var security =  document.getElementById('security').value;
+if (security !== "may") {
+    document.getElementById('status').innerHTML = "Incorrect security answer";
     return false;
 }
 document.getElementById('status').innerHTML = "Sending...";
