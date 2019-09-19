@@ -489,6 +489,11 @@ th, td {
     margin-top: -12px;
     font-size: 3.5rem;
 }
+.factoryImage {
+    width: 100%;
+    height: auto;
+    padding-bottom: 15px;
+}
 
 
 
