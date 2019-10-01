@@ -288,23 +288,23 @@
                     </div>
                       <div class="col-12 text-center"><h5>Select Height</h5></div>
                       <div class="col-4" style="margin-top: 3px; margin-bottom: 3px;">
-                          <button id="button3in" onclick="boxHeight3in()"
+                          <button id="button3in" onclick="reset(), boxHeight3in()"
                             style="background-color: rgb(150, 150, 150); width: 100%;" class="btn btn-outline-success">3in.</button>
                       </div>
                       <div class="col-4" style="margin-top: 3px; margin-bottom: 3px;">
-                          <button id="button6in" onclick="boxHeight6in()"
+                          <button id="button6in" onclick="reset(), boxHeight6in()"
                             style="background-color: rgb(150, 150, 150); width: 100%;" class="btn btn-outline-success">6in.</button>
                       </div>
                       <div class="col-4" style="margin-top: 3px; margin-bottom: 3px;">
-                          <button id="button12in" onclick="boxHeight12in()"
+                          <button id="button12in" onclick="reset(), boxHeight12in()"
                             style="background-color: rgb(150, 150, 150); width: 100%;" class="btn btn-outline-success">12in</button>
                       </div>
                       <div class="col-4" style="margin-top: 3px; margin-bottom: 3px;">
-                          <button id="button18in" onclick="boxHeight18in()"
+                          <button id="button18in" onclick="reset(), boxHeight18in()"
                             style="background-color: rgb(150, 150, 150); width: 100%;" class="btn btn-outline-success">18in</button>
                       </div>
                       <div class="col-4" style="margin-top: 3px; margin-bottom: 3px;">
-                          <button id="button24in" onclick="boxHeight24in()"
+                          <button id="button24in" onclick="reset(), boxHeight24in()"
                             style="background-color: rgb(150, 150, 150); width: 100%;" class="btn btn-outline-success">24in</button>
                       </div>
                     </div>
@@ -399,7 +399,7 @@
               </div>
             </div>
             <div class="modal-footer" style="background-color: rgba(180,180,180,1);">
-              <button type="button" class="btn btn-outline-success" data-dismiss="modal">Close</button>
+              <button type="button" onclick="reset()" class="btn btn-outline-success" data-dismiss="modal">Close</button>
             </div>
           </div>
         </div>

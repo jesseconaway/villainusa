@@ -455,7 +455,7 @@
           <div class="modal-content">
             <div class="modal-header" style="background-color: rgba(180,180,180,1);">
               <h5 class="modal-title">Order Medicine Ball</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <button type="button" class="close" data-dismiss="modal" onclick="reset()" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
@@ -513,39 +513,39 @@
                       </div>
                       <div class="col-12 text-center"><h5>Select Weight</h5></div>
                       <div class="col-4" style="margin-top: 3px; margin-bottom: 3px;">
-                          <button id="button5lbs" onclick="ballWeight5lbs()"
+                          <button id="button5lbs" onclick="reset(), ballWeight5lbs()"
                             style="background-color: rgb(150, 150, 150); width: 100%;" class="btn btn-outline-success">5lbs</button>
                       </div>
                       <div class="col-4" style="margin-top: 3px; margin-bottom: 3px;">
-                          <button id="button10lbs" onclick="ballWeight10lbs()"
+                          <button id="button10lbs" onclick="reset(), ballWeight10lbs()"
                             style="background-color: rgb(150, 150, 150); width: 100%;" class="btn btn-outline-success">10lbs</button>
                       </div>
                       <div class="col-4" style="margin-top: 3px; margin-bottom: 3px;">
-                          <button id="button15lbs" onclick="ballWeight15lbs()"
+                          <button id="button15lbs" onclick="reset(), ballWeight15lbs()"
                             style="background-color: rgb(150, 150, 150); width: 100%;" class="btn btn-outline-success">15lbs</button>
                       </div>
                       <div class="col-4" style="margin-top: 3px; margin-bottom: 3px;">
-                          <button id="button20lbs" onclick="ballWeight20lbs()"
+                          <button id="button20lbs" onclick="reset(), ballWeight20lbs()"
                             style="background-color: rgb(150, 150, 150); width: 100%;" class="btn btn-outline-success">20lbs</button>
                       </div>
                       <div class="col-4" style="margin-top: 3px; margin-bottom: 3px;">
-                          <button id="button25lbs" onclick="ballWeight25lbs()"
+                          <button id="button25lbs" onclick="reset(), ballWeight25lbs()"
                             style="background-color: rgb(150, 150, 150); width: 100%;" class="btn btn-outline-success">25lbs</button>
                       </div>
                       <div class="col-4" style="margin-top: 3px; margin-bottom: 3px;">
-                          <button id="button30lbs" onclick="ballWeight30lbs()"
+                          <button id="button30lbs" onclick="reset(), ballWeight30lbs()"
                             style="background-color: rgb(150, 150, 150); width: 100%;" class="btn btn-outline-success">30lbs</button>
                       </div>
                       <div class="col-4" style="margin-top: 3px; margin-bottom: 3px;">
-                          <button id="button35lbs" onclick="ballWeight35lbs()"
+                          <button id="button35lbs" onclick="reset(), ballWeight35lbs()"
                             style="background-color: rgb(150, 150, 150); width: 100%;" class="btn btn-outline-success">35lbs</button>
                       </div>
                       <div class="col-4" style="margin-top: 3px; margin-bottom: 3px;">
-                          <button id="button40lbs" onclick="ballWeight40lbs()"
+                          <button id="button40lbs" onclick="reset(), ballWeight40lbs()"
                             style="background-color: rgb(150, 150, 150); width: 100%;" class="btn btn-outline-success">40lbs</button>
                       </div>
                       <div class="col-4" style="margin-top: 3px; margin-bottom: 3px;">
-                          <button id="button50lbs" onclick="ballWeight50lbs()"
+                          <button id="button50lbs" onclick="reset(), ballWeight50lbs()"
                             style="background-color: rgb(150, 150, 150); width: 100%;" class="btn btn-outline-success">50lbs</button>
                       </div>
                     </div>
@@ -705,7 +705,7 @@
               </div>
             </div>
             <div class="modal-footer" style="background-color: rgba(180,180,180,1);">
-              <button type="button" class="btn btn-outline-success" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-outline-success" onclick="reset()" data-dismiss="modal">Close</button>
             </div>
           </div>
         </div>
