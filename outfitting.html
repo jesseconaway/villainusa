@@ -121,6 +121,16 @@
                     </div>
                 </div>
             </div>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div data-toggle="modal" data-target="#chalkBucketModal" class="card productCard" style="height:auto;">
+                  <div class="cardImgBox">
+                  <img src="images/chalkBucket.jpg" class="card-img-top" alt="Olympic Weightlifting Crossfit Chalk Bucket">
+                  </div>
+                  <div class="card-footer text-center">
+                      <a><h4 class="card-text">Chalk Bucket</h4></a>
+                  </div>
+              </div>
+          </div>
         <div class="col-6 col-md-4 col-lg-3">
                 <div data-toggle="modal" data-target="#rubberFloorMatModal" class="card productCard" style="height:auto;">
                     <div class="cardImgBox">
@@ -263,6 +273,62 @@
       </div>
     </div>
   </div>
+
+<!--Chalk Bucket Modal-->
+<div class="modal" tabindex="-1" role="dialog" id="chalkBucketModal">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color: rgba(180,180,180,1);">
+        <h5 class="modal-title">Order Chalk Bucket</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" style="background-color: white;">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <img src="images/chalkBucket.jpg" style="width: 100%; height: auto;">
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="row">
+                <div class="col">
+                    <table style="width: 100%; padding: 0; margin: 0;">
+                        <tr>
+                            <td style="background-color: rgba(30,30,30,0.2);"><strong>Price</strong></td>
+                            <td style="background-color: rgba(30,30,30,0.2);"><strong>$109.99</strong></td>
+                        </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                    <p class="productOrderBtn">
+                        <a class="btn btn-outline-success d-block snipcart-add-item"
+                           data-item-id="chalkBucket"
+                           data-item-name="Chalk Bucket"
+                           data-item-price="109.99"
+                           data-item-weight="3000"
+                           data-item-url="http://villainusa.com/outfitting.html"
+                           data-item-categories="outfitting"
+                           data-item-width="45"
+                           data-item-length="45"
+                           data-item-height="800"
+                           data-item-quantity="1"
+                           data-toggle="modal"
+                           data-target="#chalkBucketModal">Order Now</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer" style="background-color: rgba(180,180,180,1);">
+        <button type="button" class="btn btn-outline-success" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
   <!--Rubber Floor Mat Modal-->
 <div class="modal" tabindex="-1" role="dialog" id="rubberFloorMatModal">
