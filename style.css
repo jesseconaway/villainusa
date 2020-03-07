@@ -3,6 +3,9 @@
 .navbar-dark .navbar-nav .nav-link {
     color: rgba(255,255,255,1);
 }
+.container > .row > div > p {
+    color: white;
+}
 .navbar-dark, .bg-dark {
     background-color: rgba(0,0,0,1) !important;
 }
