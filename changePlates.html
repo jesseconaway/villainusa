@@ -16,58 +16,7 @@
 <body>
     
 <!---Navigation-->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="index.html">VillainUSA</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-            <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      All Categories
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="barbells.html">Barbells</a>
-                      <a class="dropdown-item" href="collars.html">Barbell Collars</a>
-                      <a class="dropdown-item" href="weightliftingequipment.html">Weightlifting Equipment</a>
-                      <a class="dropdown-item" href="outfitting.html">Gym Outfitting</a>
-                      <a class="dropdown-item" href="agilityandaerobic.html">Agility & Aerobic Training</a>
-                      <a class="dropdown-item" href="mobility.html">Mobility</a>
-                      <a class="dropdown-item" href="strengthequipment.html">Strength Equipment</a>
-                      <a class="dropdown-item" href="kettlebells.html">Kettlebells</a>
-                      <a class="dropdown-item" href="dumbbells.html">Dumbbells</a>
-                      <a class="dropdown-item" href="bodyweight.html">Bodyweight Strength</a>
-                      <a class="dropdown-item" href="jumpboxes.html">Jump Boxes</a>
-                      <a class="dropdown-item" href="plates.html">Plates</a>
-                      <a class="dropdown-item" href="gear.html">Weightlifting Gear & Apparel</a>
-                      <a class="dropdown-item" href="xendurance.html">Xendurance Supplements</a>
-                    </div>
-                  </li>
-        <li class="nav-item">
-          <a class="nav-link" href="barbells.html">Barbells</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="plates.html">Plates</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="mobility.html">Mobility</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="outfitting.html">Outfitting</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="gear.html">Gear & Apparel</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="xendurance.html">Xendurance Supplements</a>
-        </li>
-      </ul>
-      <div class="d-inline my-2 my-lg-0">
-        <div class="my-2 my-sm-0 snipcart-checkout cartIcon"><img style="width: 100%; height: auto;" src="images/cart.png"></div>
-      </div>
-    </div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="myTopNav">
 </nav>
 
 <!--Breadcrumb Nav-->
@@ -204,31 +153,31 @@
                                 </tr>
                                 <tr>
                                     <td style="background-color: rgba(30,30,30,0);">0.5kg</td>
-                                    <td style="background-color: rgba(30,30,30,0);">$7.99</td>
+                                    <td style="background-color: rgba(30,30,30,0);" id="0.5kgChangePlatePrice"></td>
                                 </tr>
                                 <tr>
                                     <td style="background-color: rgba(100,100,100,0);">1kg</td>
-                                    <td style="background-color: rgba(100,100,100,0);">$9.99</td>
+                                    <td style="background-color: rgba(100,100,100,0);" id="1kgChangePlatePrice"></td>
                                 </tr>
                                 <tr>
                                     <td style="background-color: rgba(30,30,30,0);">1.25kg</td>
-                                    <td style="background-color: rgba(30,30,30,0);">$11.99</td>
+                                    <td style="background-color: rgba(30,30,30,0);" id="1.25kgChangePlatePrice"></td>
                                 </tr>
                                 <tr>
                                     <td style="background-color: rgba(100,100,100,0);">1.5kg</td>
-                                    <td style="background-color: rgba(100,100,100,0);">$11.99</td>
+                                    <td style="background-color: rgba(100,100,100,0);" id="1.5kgChangePlatePrice"></td>
                                 </tr>
                                 <tr>
                                     <td style="background-color: rgba(30,30,30,0);">2kg</td>
-                                    <td style="background-color: rgba(30,30,30,0);">$13.99</td>
+                                    <td style="background-color: rgba(30,30,30,0);" id="2kgChangePlatePrice"></td>
                                 </tr>
                                 <tr>
                                     <td style="background-color: rgba(100,100,100,0);">2.5kg</td>
-                                    <td style="background-color: rgba(100,100,100,0);">$16.99</td>
+                                    <td style="background-color: rgba(100,100,100,0);" id="2.5kgChangePlatePrice"></td>
                                 </tr>
                                 <tr>
                                     <td style="background-color: rgba(30,30,30,0);">5kg</td>
-                                    <td style="background-color: rgba(30,30,30,0);">$24.99</td>
+                                    <td style="background-color: rgba(30,30,30,0);" id="5kgChangePlatePrice"></td>
                                 </tr>
                                 <tr>
                                     <td style="background-color: white;"></td>
@@ -236,15 +185,15 @@
                                 </tr>
                                 <tr>
                                     <td style="background-color: rgba(100,100,100,0);">2.5lbs</td>
-                                    <td style="background-color: rgba(100,100,100,0);">$11.99</td>
+                                    <td style="background-color: rgba(100,100,100,0);" id="2.5lbChangePlatePrice"></td>
                                 </tr>
                                 <tr>
                                     <td style="background-color: rgba(30,30,30,0);">5lbs</td>
-                                    <td style="background-color: rgba(30,30,30,0);">$16.99</td>
+                                    <td style="background-color: rgba(30,30,30,0);" id="5lbChangePlatePrice"></td>
                                 </tr>
                                 <tr>
                                     <td style="background-color: rgba(100,100,100,0);">10lbs</td>
-                                    <td style="background-color: rgba(100,100,100,0);">$24.99</td>
+                                    <td style="background-color: rgba(100,100,100,0);" id="10lbChangePlatePrice"></td>
                                 </tr>
                             </table>
                     </div>
@@ -277,7 +226,7 @@
                         class="btn btn-outline-success snipcart-add-item"
                         data-item-id="2.5lbChangePlate"
                         data-item-name="2.5lb Change Plate"
-                        data-item-price="11.99"
+                        data-item-price=""
                         data-item-weight="1134"
                         data-item-url="http://villainusa.com/changePlates.html"
                         data-item-categories="plates"
@@ -296,7 +245,7 @@
                         class="btn btn-outline-success snipcart-add-item"
                         data-item-id="5lbChangePlate"
                         data-item-name="5lb Change Plate"
-                        data-item-price="16.99"
+                        data-item-price=""
                         data-item-weight="2268"
                         data-item-url="http://villainusa.com/changePlates.html"
                         data-item-categories="plates"
@@ -315,7 +264,7 @@
                         class="btn btn-outline-success snipcart-add-item"
                         data-item-id="10lbChangePlate"
                         data-item-name="10lb Change Plate"
-                        data-item-price="24.99"
+                        data-item-price=""
                         data-item-weight="4536"
                         data-item-url="http://villainusa.com/changePlates.html"
                         data-item-categories="plates"
@@ -336,7 +285,7 @@
                         class="btn btn-outline-success snipcart-add-item"
                         data-item-id="0.5kgChangePlate"
                         data-item-name="0.5kg Change Plate"
-                        data-item-price="7.99"
+                        data-item-price=""
                         data-item-weight="500"
                         data-item-url="http://villainusa.com/changePlates.html"
                         data-item-categories="plates"
@@ -355,7 +304,7 @@
                         class="btn btn-outline-success snipcart-add-item"
                         data-item-id="1kgChangePlate"
                         data-item-name="1kg Change Plate"
-                        data-item-price="9.99"
+                        data-item-price=""
                         data-item-weight="1000"
                         data-item-url="http://villainusa.com/changePlates.html"
                         data-item-categories="plates"
@@ -374,7 +323,7 @@
                         class="btn btn-outline-success snipcart-add-item"
                         data-item-id="1.25kgChangePlate"
                         data-item-name="1.25kg Change Plate"
-                        data-item-price="11.99"
+                        data-item-price=""
                         data-item-weight="1250"
                         data-item-url="http://villainusa.com/changePlates.html"
                         data-item-categories="plates"
@@ -393,7 +342,7 @@
                         class="btn btn-outline-success snipcart-add-item"
                         data-item-id="1.5kgChangePlate"
                         data-item-name="1.5kg Change Plate"
-                        data-item-price="11.99"
+                        data-item-price=""
                         data-item-weight="2500"
                         data-item-url="http://villainusa.com/changePlates.html"
                         data-item-categories="plates"
@@ -412,7 +361,7 @@
                         class="btn btn-outline-success snipcart-add-item"
                         data-item-id="2kgChangePlate"
                         data-item-name="2kg Change Plate"
-                        data-item-price="13.99"
+                        data-item-price=""
                         data-item-weight="2000"
                         data-item-url="http://villainusa.com/changePlates.html"
                         data-item-categories="plates"
@@ -431,7 +380,7 @@
                         class="btn btn-outline-success snipcart-add-item"
                         data-item-id="2.5kgChangePlate"
                         data-item-name="2.5kg Change Plate"
-                        data-item-price="16.99"
+                        data-item-price=""
                         data-item-weight="2500"
                         data-item-url="http://villainusa.com/changePlates.html"
                         data-item-categories="plates"
@@ -450,7 +399,7 @@
                         class="btn btn-outline-success snipcart-add-item"
                         data-item-id="5kgChangePlate"
                         data-item-name="5kg Change Plate"
-                        data-item-price="24.99"
+                        data-item-price=""
                         data-item-weight="5000"
                         data-item-url="http://villainusa.com/changePlates.html"
                         data-item-categories="plates"
@@ -690,24 +639,8 @@
 
 <!--Footer-->
 
-<div class="container-fluid myFooter">
-        <div class="row mx-auto">
-          <div class="col-6 col-md-4 mx-auto footerColumn1">
-            <a href="customization.html" class="footerLink">Customization</a><br>
-            <a href="ordering.html" class="footerLink">Placing an Order</a><br>
-            <a href="production.html" class="footerLink">Production Facilities</a>
-          </div>
-          <div class="col-6 col-md-4 mx-auto footerColumn2">
-              <a href="shipping.html" class="footerLink">Shipping</a><br>
-              <a href="policies.html" class="footerLink">Product Policies</a><br>
-              <a href="contact.html" class="footerLink">Contact Us</a>
-          </div>
-          <div class="col-6 col-md-4 mx-auto footerColumn3">
-              <h1 class="footerItem"><a href="index.html">VillainUSA</a></h1><br>
-              <p class="footerItem">©2019 VillainUSA LLC</p>
-          </div>
-        </div>
-    </div>
+<div class="container-fluid myFooter" id="myFooter">
+</div>
 
     <!-- Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -715,16 +648,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="MTI3ZThhZDYtNDAzZi00MGQ3LTllOGYtYzY3MzEzMGRlZjNhNjM3MDQxODk5NDIzNjk3MDQw"></script>
-    <script>
-        var modalBody = document.getElementById('modalBody');
-        var productModal = document.getElementById('productModal');
-
-        window.onclick = function(event) {
-  if (event.target == modalBody) {
-    $("#productModal").modal("hide");
-  }
-}
-
+    <script src="script.js">
     </script>
     </body>
     </html>
