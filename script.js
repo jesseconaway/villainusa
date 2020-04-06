@@ -333,6 +333,118 @@ addItemButtons.forEach(function(addItemButton) {
         // 25kg Economy Plate
         setPrice('84.99', '25kgEconomyPlatePrice');
 
+    } else if(addItemButton.matches('[data-item-id="25lbStripedPlate"]')) {
+        
+        /*----------------------------------------------------------
+        PLATE PRICES WILL NEED TO BE CHANGED MANUALLY ON MOBILE SIZE
+        ----------------------------------------------------------*/
+
+        // 25lb Striped Plate
+        setPrice('79.99', '25lbStripedPlatePrice');
+
+    } else if(addItemButton.matches('[data-item-id="35lbStripedPlate"]')) {
+                
+        // 35lb Striped Plate
+        setPrice('99.99', '35lbStripedPlatePrice');
+
+    } else if(addItemButton.matches('[data-item-id="45lbStripedPlate"]')) {
+                
+        // 45lb Striped Plate
+        setPrice('119.99', '45lbStripedPlatePrice');
+
+    } else if(addItemButton.matches('[data-item-id="55lbStripedPlate"]')) {
+                
+        // 55lb Striped Plate
+        setPrice('139.99', '55lbStripedPlatePrice');
+
+    } else if(addItemButton.matches('[data-item-id="10kgStripedPlate"]')) {
+                
+        // 10kg Striped Plate
+        setPrice('74.99', '10kgStripedPlatePrice');
+
+    } else if(addItemButton.matches('[data-item-id="15kgStripedPlate"]')) {
+                
+        // 15kg Striped Plate
+        setPrice('92.99', '15kgStripedPlatePrice');
+
+    } else if(addItemButton.matches('[data-item-id="20kgStripedPlate"]')) {
+                
+        // 20kg Striped Plate
+        setPrice('114.99', '20kgStripedPlatePrice');
+
+    } else if(addItemButton.matches('[data-item-id="25kgStripedPlate"]')) {
+                
+        // 25kg Striped Plate
+        setPrice('134.99', '25kgStripedPlatePrice');
+
+    } else if(addItemButton.matches('[data-item-id="25lbTrainingPlate"]')) {
+        
+        /*----------------------------------------------------------
+        PLATE PRICES WILL NEED TO BE CHANGED MANUALLY ON MOBILE SIZE
+        ----------------------------------------------------------*/
+
+        // 25lb Training Plate
+        setPrice('79.99', '25lbTrainingPlatePrice');
+
+    } else if(addItemButton.matches('[data-item-id="35lbTrainingPlate"]')) {
+                
+        // 35lb Training Plate
+        setPrice('99.99', '35lbTrainingPlatePrice');
+
+    } else if(addItemButton.matches('[data-item-id="45lbTrainingPlate"]')) {
+                
+        // 45lb Training Plate
+        setPrice('119.99', '45lbTrainingPlatePrice');
+
+    } else if(addItemButton.matches('[data-item-id="55lbTrainingPlate"]')) {
+                
+        // 55lb Training Plate
+        setPrice('139.99', '55lbTrainingPlatePrice');
+
+    } else if(addItemButton.matches('[data-item-id="10kgTrainingPlate"]')) {
+                
+        // 10kg Training Plate
+        setPrice('74.99', '10kgTrainingPlatePrice');
+
+    } else if(addItemButton.matches('[data-item-id="15kgTrainingPlate"]')) {
+                
+        // 15kg Training Plate
+        setPrice('92.99', '15kgTrainingPlatePrice');
+
+    } else if(addItemButton.matches('[data-item-id="20kgTrainingPlate"]')) {
+                
+        // 20kg Training Plate
+        setPrice('114.99', '20kgTrainingPlatePrice');
+
+    } else if(addItemButton.matches('[data-item-id="25kgTrainingPlate"]')) {
+                
+        // 25kg Training Plate
+        setPrice('134.99', '25kgTrainingPlatePrice');
+
+    } else if(addItemButton.matches('[data-item-id="2.5kgTechniquePlate"]')) {
+                
+        /*----------------------------------------------------------
+        PLATE PRICES WILL NEED TO BE CHANGED MANUALLY ON MOBILE SIZE
+        ----------------------------------------------------------*/
+
+        // 2.5kg Technique Plate
+        setPrice('59.99', '2.5kgTechniquePlatePrice');
+
+    } else if(addItemButton.matches('[data-item-id="5kgPlasticTechniquePlate"]')) {
+                
+        // 5kg Plastic Technique Plate
+        setPrice('69.99', '5kgPlasticTechniquePlatePrice');
+
+    } else if(addItemButton.matches('[data-item-id="5kgRubberTechniquePlate"]')) {
+                
+        // 5kg Rubber Technique Plate
+        setPrice('59.99', '5kgRubberTechniquePlatePrice');
+
+    } else if(addItemButton.matches('[data-item-id="15lbTechniquePlate"]')) {
+                
+        // 15lb Technique Plate
+        setPrice('59.99', '15lbTechniquePlatePrice');
+
     } else if(addItemButton.matches('[data-item-id="pinkShoe"]')) {
                 
         // Pink Wei Rui Shoes

@@ -17,6 +17,12 @@
   font-size: 1.2rem;
 }
 
+span.plateNotification::after {
+  color: red;
+  content: "Notice: Due to high order volume, pound plates are currently available only for pre-order. Shipping will take 6-8 weeks. Kilogram plates are still available. If you have questions, please contact us. Thank you for your patience.";
+  font-size: 1.2rem;
+}
+
 .productSpecs span::after {
   color: red;
   font-size: 1.2rem;
