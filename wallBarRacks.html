@@ -16,58 +16,7 @@
 <body>
     
 <!---Navigation-->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="index.html">VillainUSA</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-            <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      All Categories
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="barbells.html">Barbells</a>
-                      <a class="dropdown-item" href="collars.html">Barbell Collars</a>
-                      <a class="dropdown-item" href="weightliftingequipment.html">Weightlifting Equipment</a>
-                      <a class="dropdown-item" href="outfitting.html">Gym Outfitting</a>
-                      <a class="dropdown-item" href="agilityandaerobic.html">Agility & Aerobic Training</a>
-                      <a class="dropdown-item" href="mobility.html">Mobility</a>
-                      <a class="dropdown-item" href="strengthequipment.html">Strength Equipment</a>
-                      <a class="dropdown-item" href="kettlebells.html">Kettlebells</a>
-                      <a class="dropdown-item" href="dumbbells.html">Dumbbells</a>
-                      <a class="dropdown-item" href="bodyweight.html">Bodyweight Strength</a>
-                      <a class="dropdown-item" href="jumpboxes.html">Jump Boxes</a>
-                      <a class="dropdown-item" href="plates.html">Plates</a>
-                      <a class="dropdown-item" href="gear.html">Weightlifting Gear & Apparel</a>
-                      <a class="dropdown-item" href="xendurance.html">Xendurance Supplements</a>
-                    </div>
-                  </li>
-        <li class="nav-item">
-          <a class="nav-link" href="barbells.html">Barbells</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="plates.html">Plates</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="mobility.html">Mobility</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="outfitting.html">Outfitting</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="gear.html">Gear & Apparel</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="xendurance.html">Xendurance Supplements</a>
-        </li>
-      </ul>
-      <div class="d-inline my-2 my-lg-0">
-        <div class="my-2 my-sm-0 snipcart-checkout cartIcon"><img style="width: 100%; height: auto;" src="images/cart.png"></div>
-      </div>
-    </div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="myTopNav">
 </nav>
 
 <!--Breadcrumb Nav-->
@@ -178,19 +127,19 @@
                         <table style="width: 100%; padding: 0; margin: 0;">
                           <tr>
                               <td style="background-color: rgba(30,30,30,0.2);">Style 1 - Holds 6 Bars</td>
-                              <td style="background-color: rgba(30,30,30,0.2);">85 x 10 x 4.5cm - $49.99</td>
+                              <td style="background-color: rgba(30,30,30,0.2);">85 x 10 x 4.5cm - <strong id="wallBarRackHorizontal6BarPrice"></strong></td>
                           </tr>
                           <tr>
                               <td style="background-color: rgba(150,150,150,0.2);">Style 2 - 6 Bar Capacity</td>
-                              <td style="background-color: rgba(150,150,150,0.2);">58 x 12 x 7cm - $24.99</td>
+                              <td style="background-color: rgba(150,150,150,0.2);">58 x 12 x 7cm - <strong id="wallBarRackVertical6BarPrice"></strong></td>
                           </tr>
                           <tr>
-                              <td style="background-color: rgba(30,30,30,0.2);">Style 2 - 10 Bar Capicity</td>
-                              <td style="background-color: rgba(30,30,30,0.2);">95 x 12 x 7cm - 34.99</td>
+                              <td style="background-color: rgba(30,30,30,0.2);">Style 3 - 10 Bar Capicity</td>
+                              <td style="background-color: rgba(30,30,30,0.2);">95 x 12 x 7cm - <strong id="wallBarRackVertical10BarPrice"></strong></td>
                           </tr>
                           <tr>
-                              <td style="background-color: rgba(150,150,150,0.2);">Style 3 - Holds 3 Bars</td>
-                              <td style="background-color: rgba(150,150,150,0.2);">30 x 12 x 7cm - 14.99</td>
+                              <td style="background-color: rgba(150,150,150,0.2);">Style 4 - Holds 3 Bars</td>
+                              <td style="background-color: rgba(150,150,150,0.2);">30 x 12 x 7cm - <strong id="wallBarRackHorizontal3BarPrice"></strong></td>
                           </tr>
                         </table>
                     </div>
@@ -223,7 +172,7 @@
                         class="btn btn-outline-success snipcart-add-item"
                         data-item-id="wallBarRackHorizontal6Bar"
                         data-item-name="Wall-Mounted Horizontal 6-Bar Rack"
-                        data-item-price="49.99"
+                        data-item-price=""
                         data-item-weight="2500"
                         data-item-url="http://villainusa.com/wallBarRacks.html"
                         data-item-categories="gym outfitting"
@@ -242,7 +191,7 @@
                         class="btn btn-outline-success snipcart-add-item"
                         data-item-id="wallBarRackVertical6Bar"
                         data-item-name="Wall-Mounted Vertical 6-Bar Rack"
-                        data-item-price="24.99"
+                        data-item-price=""
                         data-item-weight="2500"
                         data-item-url="http://villainusa.com/wallBarRacks.html"
                         data-item-categories="gym outfitting"
@@ -263,7 +212,7 @@
                         class="btn btn-outline-success snipcart-add-item"
                         data-item-id="wallBarRackVertical10Bar"
                         data-item-name="Wall-Mounted Vertical 10-Bar Rack"
-                        data-item-price="34.99"
+                        data-item-price=""
                         data-item-weight="3500"
                         data-item-url="http://villainusa.com/wallBarRacks.html"
                         data-item-categories="gym outfitting"
@@ -271,7 +220,7 @@
                         data-item-length="95"
                         data-item-height="7"
                         data-item-quantity="1"
-                    >Style 2 - 10 Bars</button>
+                    >Style 3 - 10 Bars</button>
                 </div>
                 <div class="col-6">
                         <button
@@ -282,7 +231,7 @@
                         class="btn btn-outline-success snipcart-add-item"
                         data-item-id="wallBarRackHorizontal3Bar"
                         data-item-name="Wall-Mounted Horizontal 3-Bar Rack"
-                        data-item-price="14.99"
+                        data-item-price=""
                         data-item-weight="2000"
                         data-item-url="http://villainusa.com/wallBarRacks.html"
                         data-item-categories="gym outfitting"
@@ -290,7 +239,7 @@
                         data-item-length="30"
                         data-item-height="7"
                         data-item-quantity="1"
-                    >Style 3 - 3 Bars</button>
+                    >Style 4 - 3 Bars</button>
                 </div>
                 </div>
             </div>
@@ -359,23 +308,7 @@
 
 <!--Footer-->
 
-<div class="container-fluid myFooter">
-    <div class="row mx-auto">
-      <div class="col-6 col-md-4 mx-auto footerColumn1">
-        <a href="customization.html" class="footerLink">Customization</a><br>
-        <a href="ordering.html" class="footerLink">Placing an Order</a><br>
-        <a href="production.html" class="footerLink">Production Facilities</a>
-      </div>
-      <div class="col-6 col-md-4 mx-auto footerColumn2">
-          <a href="shipping.html" class="footerLink">Shipping</a><br>
-          <a href="policies.html" class="footerLink">Product Policies</a><br>
-          <a href="contact.html" class="footerLink">Contact Us</a>
-      </div>
-      <div class="col-6 col-md-4 mx-auto footerColumn3">
-          <h1 class="footerItem"><a href="index.html">VillainUSA</a></h1><br>
-          <p class="footerItem">©2019 VillainUSA LLC</p>
-      </div>
-    </div>
+<div class="container-fluid myFooter" id="myFooter">
 </div>
 
     <!-- Bootstrap JS -->
@@ -384,16 +317,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="MTI3ZThhZDYtNDAzZi00MGQ3LTllOGYtYzY3MzEzMGRlZjNhNjM3MDQxODk5NDIzNjk3MDQw"></script>
-    <script>
-        var modalBody = document.getElementById('modalBody');
-        var productModal = document.getElementById('productModal');
-
-        window.onclick = function(event) {
-  if (event.target == modalBody) {
-    $("#productModal").modal("hide");
-  }
-}
-
-    </script>
+    <script src="script.js"></script>
     </body>
     </html>

@@ -16,58 +16,7 @@
 <body>
     
 <!---Navigation-->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="index.html">VillainUSA</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-            <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      All Categories
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="barbells.html">Barbells</a>
-                      <a class="dropdown-item" href="collars.html">Barbell Collars</a>
-                      <a class="dropdown-item" href="weightliftingequipment.html">Weightlifting Equipment</a>
-                      <a class="dropdown-item" href="outfitting.html">Gym Outfitting</a>
-                      <a class="dropdown-item" href="agilityandaerobic.html">Agility & Aerobic Training</a>
-                      <a class="dropdown-item" href="mobility.html">Mobility</a>
-                      <a class="dropdown-item" href="strengthequipment.html">Strength Equipment</a>
-                      <a class="dropdown-item" href="kettlebells.html">Kettlebells</a>
-                      <a class="dropdown-item" href="dumbbells.html">Dumbbells</a>
-                      <a class="dropdown-item" href="bodyweight.html">Bodyweight Strength</a>
-                      <a class="dropdown-item" href="jumpboxes.html">Jump Boxes</a>
-                      <a class="dropdown-item" href="plates.html">Plates</a>
-                      <a class="dropdown-item" href="gear.html">Weightlifting Gear & Apparel</a>
-                      <a class="dropdown-item" href="xendurance.html">Xendurance Supplements</a>
-                    </div>
-                  </li>
-        <li class="nav-item">
-          <a class="nav-link" href="barbells.html">Barbells</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="plates.html">Plates</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="mobility.html">Mobility</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="outfitting.html">Outfitting</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="gear.html">Gear & Apparel</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="xendurance.html">Xendurance Supplements</a>
-        </li>
-      </ul>
-      <div class="d-inline my-2 my-lg-0">
-        <div class="my-2 my-sm-0 snipcart-checkout cartIcon"><img style="width: 100%; height: auto;" src="images/cart.png"></div>
-      </div>
-    </div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="myTopNav">
 </nav>
 
 <!--Breadcrumb Nav-->
@@ -96,6 +45,7 @@
 <!--Products-->
 
 <div class="container">
+  <span></span>
     <div class="row">
         <div class="col-6 col-md-4 col-lg-3">
             <div data-toggle="modal" data-target="#viprModal" class="card productCard" style="height:auto;">
@@ -286,7 +236,7 @@
                                   <td style="background-color: rgba(30,30,30,0.2);">Number 2 has a diameter of 57mm, and a length of 125mm</td>
                               </tr>
                               <tr>
-                                  <td style="background-color: rgba(150,150,150,0.2);"><strong>Price: $14.99</strong></td>
+                                  <td style="background-color: rgba(150,150,150,0.2);">Price: <strong id="fatGripsPrice"></strong></td>
                               </tr>
                         </table>
                         <p class="text-center">Choose item diameter within your shopping cart</p>
@@ -298,7 +248,7 @@
                               <a class="btn btn-outline-success d-block snipcart-add-item"
                                  data-item-id="fatGrips"
                                  data-item-name="Thick Grip Trainer"
-                                 data-item-price="14.99"
+                                 data-item-price=""
                                  data-item-weight="300"
                                  data-item-url="http://villainusa.com/strengthequipment.html"
                                  data-item-categories="strength equipment"
@@ -354,7 +304,7 @@
                               </tr>
                               <tr>
                                   <td style="background-color: rgba(30,30,30,0.2);"><strong>Price</strong></td>
-                                  <td style="background-color: rgba(30,30,30,0.2);"><strong>$8.99</strong></td>
+                                  <td style="background-color: rgba(30,30,30,0.2);"><strong id="squatPadPrice"></strong></td>
                               </tr>
                         </table>
                       </div>
@@ -365,7 +315,7 @@
                               <a class="btn btn-outline-success d-block snipcart-add-item"
                                  data-item-id="squatPad"
                                  data-item-name="Squat Pad"
-                                 data-item-price="8.99"
+                                 data-item-price=""
                                  data-item-weight="300"
                                  data-item-url="http://villainusa.com/strengthequipment.html"
                                  data-item-categories="strength equipment"
@@ -422,7 +372,7 @@
                               </tr>
                               <tr>
                                   <td style="background-color: rgba(150,150,150,0.2);"><strong>Price</strong></td>
-                                  <td style="background-color: rgba(150,150,150,0.2);"><strong>$169.99</strong></td>
+                                  <td style="background-color: rgba(150,150,150,0.2);"><strong id="powerSledPrice"></strong></td>
                               </tr>
                         </table>
                       </div>
@@ -433,7 +383,7 @@
                               <a class="btn btn-outline-success d-block snipcart-add-item"
                                  data-item-id="powerSled"
                                  data-item-name="Power Sled"
-                                 data-item-price="169.99"
+                                 data-item-price=""
                                  data-item-weight="20000"
                                  data-item-url="http://villainusa.com/strengthequipment.html"
                                  data-item-categories="strength equipment"
@@ -482,39 +432,39 @@
                               </tr>
                               <tr>
                                   <td style="background-color: rgba(30,30,30,0.2);">5lb</td>
-                                  <td style="background-color: rgba(30,30,30,0.2);">$14.99</td>
+                                  <td style="background-color: rgba(30,30,30,0.2);" id="5lbMedBallPrice"></td>
                               </tr>
                               <tr>
                                   <td style="background-color: rgba(150,150,150,0.2);">10lb</td>
-                                  <td style="background-color: rgba(150,150,150,0.2);">$16.99</td>
+                                  <td style="background-color: rgba(150,150,150,0.2);" id="10lbMedBallPrice"></td>
                               </tr>
                               <tr>
                                   <td style="background-color: rgba(30,30,30,0.2);">15lb</td>
-                                  <td style="background-color: rgba(30,30,30,0.2);">$19.99</td>
+                                  <td style="background-color: rgba(30,30,30,0.2);" id="15lbMedBallPrice"></td>
                               </tr>
                               <tr>
                                   <td style="background-color: rgba(150,150,150,0.2);">20lb</td>
-                                  <td style="background-color: rgba(150,150,150,0.2);">$24.99</td>
+                                  <td style="background-color: rgba(150,150,150,0.2);" id="20lbMedBallPrice"></td>
                               </tr>
                               <tr>
                                   <td style="background-color: rgba(30,30,30,0.2);">25lb</td>
-                                  <td style="background-color: rgba(30,30,30,0.2);">$29.99</td>
+                                  <td style="background-color: rgba(30,30,30,0.2);" id="25lbMedBallPrice"></td>
                               </tr>
                               <tr>
                                   <td style="background-color: rgba(150,150,150,0.2);">30lb</td>
-                                  <td style="background-color: rgba(150,150,150,0.2);">$33.99</td>
+                                  <td style="background-color: rgba(150,150,150,0.2);" id="30lbMedBallPrice"></td>
                               </tr>
                               <tr>
                                   <td style="background-color: rgba(30,30,30,0.2);">35lb</td>
-                                  <td style="background-color: rgba(30,30,30,0.2);">$37.99</td>
+                                  <td style="background-color: rgba(30,30,30,0.2);" id="35lbMedBallPrice"></td>
                               </tr>
                               <tr>
                                   <td style="background-color: rgba(150,150,150,0.2);">40lb</td>
-                                  <td style="background-color: rgba(150,150,150,0.2);">$49.99</td>
+                                  <td style="background-color: rgba(150,150,150,0.2);" id="40lbMedBallPrice"></td>
                               </tr>
                               <tr>
-                                  <td style="background-color: rgba(150,150,150,0.2);">50lb</td>
-                                  <td style="background-color: rgba(150,150,150,0.2);">$64.99</td>
+                                  <td style="background-color: rgba(30,30,30,0.2);">50lb</td>
+                                  <td style="background-color: rgba(30,30,30,0.2);" id="50lbMedBallPrice"></td>
                               </tr>
                         </table>
                       </div>
@@ -567,7 +517,7 @@
                                 onclick="reset()"
                                  data-item-id="5lbMedBall"
                                  data-item-name="5lb Medicine Ball"
-                                 data-item-price="14.99"
+                                 data-item-price=""
                                  data-item-weight="2500"
                                  data-item-url="http://villainusa.com/strengthequipment.html"
                                  data-item-categories="strength equipment"
@@ -583,7 +533,7 @@
                               onclick="reset()"
                                 data-item-id="10lbMedBall"
                                 data-item-name="10lb Medicine Ball"
-                                data-item-price="16.99"
+                                data-item-price=""
                                 data-item-weight="4500"
                                 data-item-url="http://villainusa.com/strengthequipment.html"
                                 data-item-categories="strength equipment"
@@ -599,7 +549,7 @@
                               onclick="reset()"
                                 data-item-id="15lbMedBall"
                                 data-item-name="15lb Medicine Ball"
-                                data-item-price="19.99"
+                                data-item-price=""
                                 data-item-weight="6300"
                                 data-item-url="http://villainusa.com/strengthequipment.html"
                                 data-item-categories="strength equipment"
@@ -615,7 +565,7 @@
                                 onclick="reset()"
                                  data-item-id="20lbMedBall"
                                  data-item-name="20lb Medicine Ball"
-                                 data-item-price="24.99"
+                                 data-item-price=""
                                  data-item-weight="9000"
                                  data-item-url="http://villainusa.com/strengthequipment.html"
                                  data-item-categories="strength equipment"
@@ -631,7 +581,7 @@
                                 onclick="reset()"
                                  data-item-id="25lbMedBall"
                                  data-item-name="25lb Medicine Ball"
-                                 data-item-price="29.99"
+                                 data-item-price=""
                                  data-item-weight="11000"
                                  data-item-url="http://villainusa.com/strengthequipment.html"
                                  data-item-categories="strength equipment"
@@ -647,7 +597,7 @@
                              onclick="reset()"
                                data-item-id="30lbMedBall"
                                data-item-name="30lb Medicine Ball"
-                               data-item-price="33.99"
+                               data-item-price=""
                                data-item-weight="14000"
                                data-item-url="http://villainusa.com/strengthequipment.html"
                                data-item-categories="strength equipment"
@@ -663,7 +613,7 @@
                              onclick="reset()"
                                data-item-id="35lbMedBall"
                                data-item-name="35lb Medicine Ball"
-                               data-item-price="37.99"
+                               data-item-price=""
                                data-item-weight="16000"
                                data-item-url="http://villainusa.com/strengthequipment.html"
                                data-item-categories="strength equipment"
@@ -679,7 +629,7 @@
                                onclick="reset()"
                                 data-item-id="40lbMedBall"
                                 data-item-name="40lb Medicine Ball"
-                                data-item-price="49.99"
+                                data-item-price=""
                                 data-item-weight="18000"
                                 data-item-url="http://villainusa.com/strengthequipment.html"
                                 data-item-categories="strength equipment"
@@ -695,7 +645,7 @@
                                onclick="reset()"
                                 data-item-id="50lbMedBall"
                                 data-item-name="50lb Medicine Ball"
-                                data-item-price="64.99"
+                                data-item-price=""
                                 data-item-weight="22600"
                                 data-item-url="http://villainusa.com/strengthequipment.html"
                                 data-item-categories="strength equipment"
@@ -824,7 +774,7 @@
                               </tr>
                               <tr>
                                   <td style="background-color: rgba(30,30,30,0.2);"><strong>Price</strong></td>
-                                  <td style="background-color: rgba(30,30,30,0.2);"><strong>$14.99</strong></td>
+                                  <td style="background-color: rgba(30,30,30,0.2);"><strong id="abMatPrice">$14.99</strong></td>
                               </tr>
                         </table>
                       </div>
@@ -835,7 +785,7 @@
                               <a class="btn btn-outline-success d-block snipcart-add-item"
                                  data-item-id="abMat"
                                  data-item-name="Ab Mat"
-                                 data-item-price="14.99"
+                                 data-item-price=""
                                  data-item-weight="500"
                                  data-item-url="http://villainusa.com/strengthequipment.html"
                                  data-item-categories="strength equipment"
@@ -861,23 +811,7 @@
 
 <!--Footer-->
 
-<div class="container-fluid myFooter">
-    <div class="row mx-auto">
-      <div class="col-6 col-md-4 mx-auto footerColumn1">
-        <a href="customization.html" class="footerLink">Customization</a><br>
-        <a href="ordering.html" class="footerLink">Placing an Order</a><br>
-        <a href="production.html" class="footerLink">Production Facilities</a>
-      </div>
-      <div class="col-6 col-md-4 mx-auto footerColumn2">
-          <a href="shipping.html" class="footerLink">Shipping</a><br>
-          <a href="policies.html" class="footerLink">Product Policies</a><br>
-          <a href="contact.html" class="footerLink">Contact Us</a>
-      </div>
-      <div class="col-6 col-md-4 mx-auto footerColumn3">
-          <h1 class="footerItem"><a href="index.html">VillainUSA</a></h1><br>
-          <p class="footerItem">©2019 VillainUSA LLC</p>
-      </div>
-    </div>
+<div class="container-fluid myFooter" id="myFooter">
 </div>
         <!-- Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -885,6 +819,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
         <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="MTI3ZThhZDYtNDAzZi00MGQ3LTllOGYtYzY3MzEzMGRlZjNhNjM3MDQxODk5NDIzNjk3MDQw"></script>
+        <script src="script.js"></script>
     
 <script>
 var dummybutton = document.getElementById("dummyButton");

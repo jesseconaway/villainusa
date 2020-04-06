@@ -455,6 +455,16 @@ addItemButtons.forEach(function(addItemButton) {
         // Purple Wei Rui Shoes
         setPrice('54.99', 'purpleShoePrice');
 
+    } else if(addItemButton.matches('[data-item-id="yellowShoe"]')) {
+                
+        // Yellow Do Win Shoes
+        setPrice('174.99', 'yellowShoePrice');
+
+    } else if(addItemButton.matches('[data-item-id="redShoe"]')) {
+                
+        // Red Do Win Shoes
+        setPrice('174.99', 'yellowShoePrice');
+
     } else if(addItemButton.matches('[data-item-id="weightliftingBelt"]')) {
                 
         // Weightlifting Belt
@@ -730,25 +740,245 @@ addItemButtons.forEach(function(addItemButton) {
         // 25kg Economy Plate
         setPrice('84.99', '25kgEconomyPlatePrice');
 
-    } else if(addItemButton.matches('[data-item-id="25kgEconomyPlate"]')) {
+    } else if(addItemButton.matches('[data-item-id="massageBall"]')) {
                 
-        // 25kg Economy Plate
-        setPrice('84.99', '25kgEconomyPlatePrice');
+        // Massage Ball
+        setPrice('5.99', 'massageBallPrice');
 
-    } else if(addItemButton.matches('[data-item-id="25kgEconomyPlate"]')) {
+    } else if(addItemButton.matches('[data-item-id="doubleMassageBall"]')) {
                 
-        // 25kg Economy Plate
-        setPrice('84.99', '25kgEconomyPlatePrice');
+        // Double Massage Ball
+        setPrice('9.99', 'doubleMassageBallPrice');
 
-    } else if(addItemButton.matches('[data-item-id="25kgEconomyPlate"]')) {
+    } else if(addItemButton.matches('[data-item-id="foamRoller"]')) {
                 
-        // 25kg Economy Plate
-        setPrice('84.99', '25kgEconomyPlatePrice');
+        // Foam Roller
+        setPrice('16.99', 'foamRollerPrice');
 
-    } else if(addItemButton.matches('[data-item-id="25kgEconomyPlate"]')) {
+    } else if(addItemButton.matches('[data-item-id="61cmBands"]')) {
                 
-        // 25kg Economy Plate
-        setPrice('84.99', '25kgEconomyPlatePrice');
+        // 61cm Bands
+        setPrice('5.99', '61cmBandsPrice');
+
+    } else if(addItemButton.matches('[data-item-id="yogaMat"]')) {
+                
+        // Yoga Mat
+        setPrice('14.99', 'yogaMatPrice');
+
+    } else if(addItemButton.matches('[data-item-id="yogaBall"]')) {
+                
+        // Yoga Ball
+        setPrice('9.99', 'yogaBallPrice');
+
+    } else if(addItemButton.matches('[data-item-id="barbellFloorRack"]')) {
+                
+        // Barbell Floor Rack
+        setPrice('124.99', 'barbellFloorRackPrice');
+
+    } else if(addItemButton.matches('[data-item-id="chalkBucket"]')) {
+                
+        // Chalk Bucket
+        setPrice('109.99', 'chalkBucketPrice');
+
+    } else if(addItemButton.matches('[data-item-id="3cmFloorMat"]')) {
+                
+        // 3cm Floor Mat
+        setPrice('39.99', '3cmFloorMatPrice');
+
+    } else if(addItemButton.matches('[data-item-id="2.5cmFloorMat"]')) {
+                
+        // 2.5cm Floor Mat
+        setPrice('38.99', '2.5cmFloorMatPrice');
+
+    } else if(addItemButton.matches('[data-item-id="2cmFloorMat"]')) {
+                
+        // 2cm Floor Mat
+        setPrice('34.99', '2cmFloorMatPrice');
+
+    } else if(addItemButton.matches('[data-item-id="1.5cmFloorMat"]')) {
+                
+        // 1.5cm Floor Mat
+        setPrice('33.99', '1.5cmFloorMatPrice');
+
+    } else if(addItemButton.matches('[data-item-id="1cmFloorMat"]')) {
+                
+        // 1cm Floor Mat
+        setPrice('32.99', '1cmFloorMatPrice');
+
+    } else if(addItemButton.matches('[data-item-id="beltHanger"]')) {
+                
+        // Belt Hanger
+        setPrice('29.99', 'beltHangerPrice');
+
+    } else if(addItemButton.matches('[data-item-id="plateRack"]')) {
+                
+        // Plate Rack
+        setPrice('89.99', 'plateRackPrice');
+
+    } else if(addItemButton.matches('[data-item-id="band208cmRed"]')) {
+                
+        // Band 208cm Red
+        setPrice('6.99', 'band208cmRedPrice');
+
+    } else if(addItemButton.matches('[data-item-id="band208cmBlack"]')) {
+                
+        // Band 208cm Black
+        setPrice('10.99', 'band208cmBlackPrice');
+
+    } else if(addItemButton.matches('[data-item-id="band208cmPurple"]')) {
+                
+        // Band 208cm Purple
+        setPrice('14.99', 'band208cmPurplePrice');
+
+    } else if(addItemButton.matches('[data-item-id="band208cmGreen"]')) {
+                
+        // Band 208cm Green
+        setPrice('18.99', 'band208cmGreenPrice');
+
+    } else if(addItemButton.matches('[data-item-id="band208cmBlue"]')) {
+                
+        // Band 208cm Blue
+        setPrice('23.99', 'band208cmBluePrice');
+
+    } else if(addItemButton.matches('[data-item-id="band208cmOrange"]')) {
+                
+        // Band 208cm Orange
+        setPrice('29.99', 'band208cmOrangePrice');
+
+    } else if(addItemButton.matches('[data-item-id="fatGrips"]')) {
+                
+        // Fat Grips
+        setPrice('14.99', 'fatGripsPrice');
+
+    } else if(addItemButton.matches('[data-item-id="squatPad"]')) {
+                
+        // Squat Pad
+        setPrice('9.99', 'squatPadPrice');
+
+    } else if(addItemButton.matches('[data-item-id="powerSled"]')) {
+                
+        // Power Sled
+        setPrice('169.99', 'powerSledPrice');
+
+    } else if(addItemButton.matches('[data-item-id="5lbMedBall"]')) {
+                
+        // 5lb Med Ball
+        setPrice('14.99', '5lbMedBallPrice');
+
+    } else if(addItemButton.matches('[data-item-id="10lbMedBall"]')) {
+                
+        // 10lb Med Ball
+        setPrice('16.99', '10lbMedBallPrice');
+
+    } else if(addItemButton.matches('[data-item-id="15lbMedBall"]')) {
+                
+        // 15lb Med Ball
+        setPrice('19.99', '15lbMedBallPrice');
+
+    } else if(addItemButton.matches('[data-item-id="20lbMedBall"]')) {
+                
+        // 20lb Med Ball
+        setPrice('24.99', '20lbMedBallPrice');
+
+    } else if(addItemButton.matches('[data-item-id="25lbMedBall"]')) {
+                
+        // 25lb Med Ball
+        setPrice('29.99', '25lbMedBallPrice');
+
+    } else if(addItemButton.matches('[data-item-id="30lbMedBall"]')) {
+                
+        // 30lb Med Ball
+        setPrice('33.99', '30lbMedBallPrice');
+
+    } else if(addItemButton.matches('[data-item-id="35lbMedBall"]')) {
+                
+        // 35lb Med Ball
+        setPrice('37.99', '35lbMedBallPrice');
+
+    } else if(addItemButton.matches('[data-item-id="40lbMedBall"]')) {
+                
+        // 40lb Med Ball
+        setPrice('49.99', '40lbMedBallPrice');
+
+    } else if(addItemButton.matches('[data-item-id="50lbMedBall"]')) {
+                
+        // 50lb Med Ball
+        setPrice('64.99', '50lbMedBallPrice');
+
+    } else if(addItemButton.matches('[data-item-id="3kgWallBall"]')) {
+                
+        // 3kg Wall Ball
+        setPrice('49.99', '3kgWallBallPrice');
+
+    } else if(addItemButton.matches('[data-item-id="4kgWallBall"]')) {
+                
+        // 4kg Wall Ball
+        setPrice('49.99', '4kgWallBallPrice');
+
+    } else if(addItemButton.matches('[data-item-id="5kgWallBall"]')) {
+                
+        // 5kg Wall Ball
+        setPrice('49.99', '5kgWallBallPrice');
+
+    } else if(addItemButton.matches('[data-item-id="6kgWallBall"]')) {
+                
+        // 6kg Wall Ball
+        setPrice('49.99', '6kgWallBallPrice');
+
+    } else if(addItemButton.matches('[data-item-id="7kgWallBall"]')) {
+                
+        // 7kg Wall Ball
+        setPrice('49.99', '7kgWallBallPrice');
+
+    } else if(addItemButton.matches('[data-item-id="8kgWallBall"]')) {
+                
+        // 8kg Wall Ball
+        setPrice('49.99', '8kgWallBallPrice');
+
+    } else if(addItemButton.matches('[data-item-id="9kgWallBall"]')) {
+                
+        // 9kg Wall Ball
+        setPrice('54.99', '9kgWallBallPrice');
+
+    } else if(addItemButton.matches('[data-item-id="10kgWallBall"]')) {
+                
+        // 10kg Wall Ball
+        setPrice('54.99', '10kgWallBallPrice');
+
+    } else if(addItemButton.matches('[data-item-id="12kgWallBall"]')) {
+                
+        // 12kg Wall Ball
+        setPrice('54.99', '12kgWallBallPrice');
+
+    } else if(addItemButton.matches('[data-item-id="wallBarRackHorizontal6Bar"]')) {
+                
+        // Wall-Mounted Horizontal 6-Bar Rack
+        setPrice('49.99', 'wallBarRackHorizontal6BarPrice');
+
+    } else if(addItemButton.matches('[data-item-id="wallBarRackVertical6Bar"]')) {
+                
+        // Wall-Mounted Vertical 6-Bar Rack
+        setPrice('24.99', 'wallBarRackVertical6BarPrice');
+
+    } else if(addItemButton.matches('[data-item-id="wallBarRackVertical10Bar"]')) {
+                
+        // Wall-Mounted Vertical 10-Bar Rack
+        setPrice('34.99', 'wallBarRackVertical10BarPrice');
+
+    } else if(addItemButton.matches('[data-item-id="wallBarRackHorizontal3Bar"]')) {
+                
+        // Wall-Mounted Horizontal 3-Bar Rack
+        setPrice('14.99', 'wallBarRackHorizontal3BarPrice');
+
+    } else if(addItemButton.matches('[data-item-id="jerkBlocks"]')) {
+                
+        // Jerk Blocks
+        setPrice('699.99', 'jerkBlocksPrice');
+
+    } else if(addItemButton.matches('[data-item-id="platform"]')) {
+                
+        // Platform
+        setPrice('749.99', 'platformPrice');
 
     }
     
