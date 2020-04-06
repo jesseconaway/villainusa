@@ -16,58 +16,7 @@
 <body>
     
 <!---Navigation-->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="index.html">VillainUSA</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-            <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      All Categories
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="barbells.html">Barbells</a>
-                      <a class="dropdown-item" href="collars.html">Barbell Collars</a>
-                      <a class="dropdown-item" href="weightliftingequipment.html">Weightlifting Equipment</a>
-                      <a class="dropdown-item" href="outfitting.html">Gym Outfitting</a>
-                      <a class="dropdown-item" href="agilityandaerobic.html">Agility & Aerobic Training</a>
-                      <a class="dropdown-item" href="mobility.html">Mobility</a>
-                      <a class="dropdown-item" href="strengthequipment.html">Strength Equipment</a>
-                      <a class="dropdown-item" href="kettlebells.html">Kettlebells</a>
-                      <a class="dropdown-item" href="dumbbells.html">Dumbbells</a>
-                      <a class="dropdown-item" href="bodyweight.html">Bodyweight Strength</a>
-                      <a class="dropdown-item" href="jumpboxes.html">Jump Boxes</a>
-                      <a class="dropdown-item" href="plates.html">Plates</a>
-                      <a class="dropdown-item" href="gear.html">Weightlifting Gear & Apparel</a>
-                      <a class="dropdown-item" href="xendurance.html">Xendurance Supplements</a>
-                    </div>
-                  </li>
-        <li class="nav-item">
-          <a class="nav-link" href="barbells.html">Barbells</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="plates.html">Plates</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="mobility.html">Mobility</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="outfitting.html">Outfitting</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="gear.html">Gear & Apparel</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="xendurance.html">Xendurance Supplements</a>
-        </li>
-      </ul>
-      <div class="d-inline my-2 my-lg-0">
-        <div class="my-2 my-sm-0 snipcart-checkout cartIcon"><img style="width: 100%; height: auto;" src="images/cart.png"></div>
-      </div>
-    </div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="myTopNav">
 </nav>
 
 <!--Breadcrumb Nav-->
@@ -184,48 +133,48 @@
                                     <th style="background-color: black;">PRICE</th>
                                 </tr>
                                 <tr>
-                                    <td style="background-color: rgba(100,100,100,0);">5kg</td>
-                                    <td style="background-color: rgba(100,100,100,0);">$24.99</td>
+                                    <td style="background-color: rgba(30,30,30,1);">5kg</td>
+                                    <td style="background-color: rgba(30,30,30,1);" id="5kgEconomyPlatePrice"></td>
                                 </tr>
                                 <tr>
-                                    <td style="background-color: rgba(100,100,100,0);">10kg</td>
-                                    <td style="background-color: rgba(100,100,100,0);">$34.99</td>
+                                    <td style="background-color: rgba(60,60,60,1);">10kg</td>
+                                    <td style="background-color: rgba(60,60,60,1);" id="10kgEconomyPlatePrice"></td>
                                 </tr>
                                 <tr>
-                                    <td style="background-color: rgba(30,30,30,0);">15kg</td>
-                                    <td style="background-color: rgba(30,30,30,0);">$49.99</td>
+                                    <td style="background-color: rgba(30,30,30,1);">15kg</td>
+                                    <td style="background-color: rgba(30,30,30,1);" id="15kgEconomyPlatePrice"></td>
                                 </tr>
                                 <tr>
-                                    <td style="background-color: rgba(100,100,100,0);">20kg</td>
-                                    <td style="background-color: rgba(100,100,100,0);">$69.99</td>
+                                    <td style="background-color: rgba(60,60,60,1);">20kg</td>
+                                    <td style="background-color: rgba(60,60,60,1);" id="20kgEconomyPlatePrice"></td>
                                 </tr>
                                 <tr>
-                                    <td style="background-color: rgba(30,30,30,0);">25kg</td>
-                                    <td style="background-color: rgba(30,30,30,0);">$84.99</td>
+                                    <td style="background-color: rgba(30,30,30,1);">25kg</td>
+                                    <td style="background-color: rgba(30,30,30,1);" id="25kgEconomyPlatePrice"></td>
                                 </tr>
                                 <tr>
-                                    <td style="background-color: rgba(100,100,100,0);">10lbs</td>
-                                    <td style="background-color: rgba(100,100,100,0);">$22.99</td>
+                                    <td style="background-color: rgba(60,60,60,1);">10lbs</td>
+                                    <td style="background-color: rgba(60,60,60,1);" id="10lbEconomyPlatePrice"></td>
                                 </tr>
                                 <tr>
-                                    <td style="background-color: rgba(100,100,100,0);">15lbs</td>
-                                    <td style="background-color: rgba(100,100,100,0);">$29.99</td>
+                                    <td style="background-color: rgba(30,30,30,1);">15lbs</td>
+                                    <td style="background-color: rgba(30,30,30,1);" id="15lbEconomyPlatePrice"></td>
                                 </tr>
                                 <tr>
-                                    <td style="background-color: rgba(100,100,100,0);">25lbs</td>
-                                    <td style="background-color: rgba(100,100,100,0);">$39.99</td>
+                                    <td style="background-color: rgba(60,60,60,1);">25lbs</td>
+                                    <td style="background-color: rgba(60,60,60,1);" id="25lbEconomyPlatePrice"></td>
                                 </tr>
                                 <tr>
-                                    <td style="background-color: rgba(30,30,30,0);">35lbs</td>
-                                    <td style="background-color: rgba(30,30,30,0);">$54.99</td>
+                                    <td style="background-color: rgba(30,30,30,1);">35lbs</td>
+                                    <td style="background-color: rgba(30,30,30,1);" id="35lbEconomyPlatePrice"></td>
                                 </tr>
                                 <tr>
-                                    <td style="background-color: rgba(100,100,100,0);">45lbs</td>
-                                    <td style="background-color: rgba(100,100,100,0);">$69.99</td>
+                                    <td style="background-color: rgba(60,60,60,1);">45lbs</td>
+                                    <td style="background-color: rgba(60,60,60,1);" id="45lbEconomyPlatePrice"></td>
                                 </tr>
                                 <tr>
-                                    <td style="background-color: rgba(30,30,30,0);">55lbs</td>
-                                    <td style="background-color: rgba(30,30,30,0);">$84.99</td>
+                                    <td style="background-color: rgba(30,30,30,1);">55lbs</td>
+                                    <td style="background-color: rgba(30,30,30,1);" id="55lbEconomyPlatePrice"></td>
                                 </tr>
                             </table>
                     </div>
@@ -258,7 +207,7 @@
                         class="btn btn-outline-success snipcart-add-item"
                         data-item-id="10lbEconomyPlate"
                         data-item-name="10lb Economy Plate"
-                        data-item-price="22.99"
+                        data-item-price=""
                         data-item-weight="4536"
                         data-item-url="http://villainusa.com/economyBumperPlates.html"
                         data-item-categories="plates"
@@ -277,7 +226,7 @@
                         class="btn btn-outline-success snipcart-add-item"
                         data-item-id="15lbEconomyPlate"
                         data-item-name="15lb Economy Plate"
-                        data-item-price="29.99"
+                        data-item-price=""
                         data-item-weight="6804"
                         data-item-url="http://villainusa.com/economyBumperPlates.html"
                         data-item-categories="plates"
@@ -296,7 +245,7 @@
                         class="btn btn-outline-success snipcart-add-item"
                         data-item-id="25lbEconomyPlate"
                         data-item-name="25lb Economy Plate"
-                        data-item-price="39.99"
+                        data-item-price=""
                         data-item-weight="11340"
                         data-item-url="http://villainusa.com/economyBumperPlates.html"
                         data-item-categories="plates"
@@ -315,7 +264,7 @@
                         class="btn btn-outline-success snipcart-add-item"
                         data-item-id="35lbEconomyPlate"
                         data-item-name="35lb Economy Plate"
-                        data-item-price="54.99"
+                        data-item-price=""
                         data-item-weight="15876"
                         data-item-url="http://villainusa.com/economyBumperPlates.html"
                         data-item-categories="plates"
@@ -334,7 +283,7 @@
                         class="btn btn-outline-success snipcart-add-item"
                         data-item-id="45lbEconomyPlate"
                         data-item-name="45lb Economy Plate"
-                        data-item-price="69.99"
+                        data-item-price=""
                         data-item-weight="20412"
                         data-item-url="http://villainusa.com/economyBumperPlates.html"
                         data-item-categories="plates"
@@ -353,7 +302,7 @@
                         class="btn btn-outline-success snipcart-add-item"
                         data-item-id="55lbEconomyPlate"
                         data-item-name="55lb Economy Plate"
-                        data-item-price="79.99"
+                        data-item-price=""
                         data-item-weight="24948"
                         data-item-url="http://villainusa.com/economyBumperPlates.html"
                         data-item-categories="plates"
@@ -374,7 +323,7 @@
                         class="btn btn-outline-success snipcart-add-item"
                         data-item-id="5kgEconomyPlate"
                         data-item-name="5kg Economy Plate"
-                        data-item-price="24.99"
+                        data-item-price=""
                         data-item-weight="5000"
                         data-item-url="http://villainusa.com/economyBumperPlates.html"
                         data-item-categories="plates"
@@ -393,7 +342,7 @@
                         class="btn btn-outline-success snipcart-add-item"
                         data-item-id="10kgEconomyPlate"
                         data-item-name="10kg Economy Plate"
-                        data-item-price="34.99"
+                        data-item-price=""
                         data-item-weight="10000"
                         data-item-url="http://villainusa.com/economyBumperPlates.html"
                         data-item-categories="plates"
@@ -412,7 +361,7 @@
                         class="btn btn-outline-success snipcart-add-item"
                         data-item-id="15kgEconomyPlate"
                         data-item-name="15kg Economy Plate"
-                        data-item-price="49.99"
+                        data-item-price=""
                         data-item-weight="15000"
                         data-item-url="http://villainusa.com/economyBumperPlates.html"
                         data-item-categories="plates"
@@ -431,7 +380,7 @@
                         class="btn btn-outline-success snipcart-add-item"
                         data-item-id="20kgEconomyPlate"
                         data-item-name="20kg Economy Plate"
-                        data-item-price="69.99"
+                        data-item-price=""
                         data-item-weight="20000"
                         data-item-url="http://villainusa.com/economyBumperPlates.html"
                         data-item-categories="plates"
@@ -450,7 +399,7 @@
                         class="btn btn-outline-success snipcart-add-item"
                         data-item-id="25kgEconomyPlate"
                         data-item-name="25kg Economy Plate"
-                        data-item-price="84.99"
+                        data-item-price=""
                         data-item-weight="25000"
                         data-item-url="http://villainusa.com/economyBumperPlates.html"
                         data-item-categories="plates"
@@ -514,11 +463,11 @@
                                     </tr>
                                     <tr>
                                         <td style="background-color: rgba(100,100,100,0);">25lbs</td>
-                                        <td style="background-color: rgba(100,100,100,0);">$39.99</td>
+                                        <td style="background-color: rgba(100,100,100,0);">$36.99</td>
                                     </tr>
                                     <tr>
                                         <td style="background-color: rgba(30,30,30,0);">35lbs</td>
-                                        <td style="background-color: rgba(30,30,30,0);">$54.99</td>
+                                        <td style="background-color: rgba(30,30,30,0);">$52.99</td>
                                     </tr>
                                     <tr>
                                         <td style="background-color: rgba(100,100,100,0);">45lbs</td>
@@ -526,7 +475,7 @@
                                     </tr>
                                     <tr>
                                         <td style="background-color: rgba(30,30,30,0);">55lbs</td>
-                                        <td style="background-color: rgba(30,30,30,0);">$84.99</td>
+                                        <td style="background-color: rgba(30,30,30,0);">$79.99</td>
                                     </tr>
                         </table>
                     </div>
@@ -690,24 +639,8 @@
 
 <!--Footer-->
 
-<div class="container-fluid myFooter">
-        <div class="row mx-auto">
-          <div class="col-6 col-md-4 mx-auto footerColumn1">
-            <a href="customization.html" class="footerLink">Customization</a><br>
-            <a href="ordering.html" class="footerLink">Placing an Order</a><br>
-            <a href="production.html" class="footerLink">Production Facilities</a>
-          </div>
-          <div class="col-6 col-md-4 mx-auto footerColumn2">
-              <a href="shipping.html" class="footerLink">Shipping</a><br>
-              <a href="policies.html" class="footerLink">Product Policies</a><br>
-              <a href="contact.html" class="footerLink">Contact Us</a>
-          </div>
-          <div class="col-6 col-md-4 mx-auto footerColumn3">
-              <h1 class="footerItem"><a href="index.html">VillainUSA</a></h1><br>
-              <p class="footerItem">©2019 VillainUSA LLC</p>
-          </div>
-        </div>
-    </div>
+<div class="container-fluid myFooter" id='myFooter'>
+</div>
 
     <!-- Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -715,16 +648,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="MTI3ZThhZDYtNDAzZi00MGQ3LTllOGYtYzY3MzEzMGRlZjNhNjM3MDQxODk5NDIzNjk3MDQw"></script>
-    <script>
-        var modalBody = document.getElementById('modalBody');
-        var productModal = document.getElementById('productModal');
-
-        window.onclick = function(event) {
-  if (event.target == modalBody) {
-    $("#productModal").modal("hide");
-  }
-}
-
-    </script>
+    <script src="script.js"></script>
     </body>
     </html>

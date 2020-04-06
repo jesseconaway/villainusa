@@ -16,58 +16,7 @@
 <body>
     
 <!---Navigation-->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="index.html">VillainUSA</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-            <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      All Categories
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="barbells.html">Barbells</a>
-                      <a class="dropdown-item" href="collars.html">Barbell Collars</a>
-                      <a class="dropdown-item" href="weightliftingequipment.html">Weightlifting Equipment</a>
-                      <a class="dropdown-item" href="outfitting.html">Gym Outfitting</a>
-                      <a class="dropdown-item" href="agilityandaerobic.html">Agility & Aerobic Training</a>
-                      <a class="dropdown-item" href="mobility.html">Mobility</a>
-                      <a class="dropdown-item" href="strengthequipment.html">Strength Equipment</a>
-                      <a class="dropdown-item" href="kettlebells.html">Kettlebells</a>
-                      <a class="dropdown-item" href="dumbbells.html">Dumbbells</a>
-                      <a class="dropdown-item" href="bodyweight.html">Bodyweight Strength</a>
-                      <a class="dropdown-item" href="jumpboxes.html">Jump Boxes</a>
-                      <a class="dropdown-item" href="plates.html">Plates</a>
-                      <a class="dropdown-item" href="gear.html">Weightlifting Gear & Apparel</a>
-                      <a class="dropdown-item" href="xendurance.html">Xendurance Supplements</a>
-                    </div>
-                  </li>
-        <li class="nav-item">
-          <a class="nav-link" href="barbells.html">Barbells</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="plates.html">Plates</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="mobility.html">Mobility</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="outfitting.html">Outfitting</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="gear.html">Gear & Apparel</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="xendurance.html">Xendurance Supplements</a>
-        </li>
-      </ul>
-      <div class="d-inline my-2 my-lg-0">
-        <div class="my-2 my-sm-0 snipcart-checkout cartIcon"><img style="width: 100%; height: auto;" src="images/cart.png"></div>
-      </div>
-    </div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="myTopNav">
 </nav>
 
 <!--Breadcrumb Nav-->
@@ -236,7 +185,7 @@
                         <td style="background-color: rgba(30,30,30,0.2);">Mid-foot strap for secure fit</td>
                     </tr>
                     <tr style="padding: 3px;">
-                        <td style="background-color: rgba(150,150,150,0.2);"><strong>Price: $44.99</strong></td>
+                        <td style="background-color: rgba(150,150,150,0.2);">Price: <strong id="pinkShoePrice"></strong></td>
                     </tr>
                 </table>
                   <p class="text-center">Choose shoe size from within shopping cart</p>
@@ -248,7 +197,7 @@
                       <a class="btn btn-outline-success d-block snipcart-add-item"
                       data-item-id="pinkShoe"
                       data-item-name="Pink Wei-Rui Weightlifting Shoe"
-                      data-item-price="44.99"
+                      data-item-price=""
                       data-item-weight="1000"
                       data-item-url="http://villainusa.com/gear.html"
                       data-item-categories="gear"
@@ -311,7 +260,7 @@
                         <td style="background-color: rgba(30,30,30,0.2);">Mid-foot strap for secure fit</td>
                     </tr>
                     <tr style="padding: 3px;">
-                        <td style="background-color: rgba(150,150,150,0.2);"><strong>Price: $54.99</strong></td>
+                        <td style="background-color: rgba(150,150,150,0.2);">Price: <strong id="purpleShoePrice"></strong></td>
                     </tr>
                 </table>
                   <p class="text-center">Choose shoe size from within shopping cart</p>
@@ -323,7 +272,7 @@
                       <a class="btn btn-outline-success d-block snipcart-add-item"
                       data-item-id="purpleShoe"
                       data-item-name="Purple Wei-Rui Weightlifting Shoe"
-                      data-item-price="54.99"
+                      data-item-price=""
                       data-item-weight="1000"
                       data-item-url="http://villainusa.com/gear.html"
                       data-item-categories="gear"
@@ -380,7 +329,7 @@
                               </tr>
                               <tr>
                                   <td style="background-color: rgba(150,150,150,0.2);"><strong>Price</strong></td>
-                                  <td style="background-color: rgba(150,150,150,0.2);"><strong>$45.99</strong></td>
+                                  <td style="background-color: rgba(150,150,150,0.2);"><strong id="weightliftingBeltPrice"></strong></td>
                               </tr>
                         </table>
                         <p class="text-center">Choose belt size from within shopping cart</p>
@@ -392,7 +341,7 @@
                               <a class="btn btn-outline-success d-block snipcart-add-item"
                                  data-item-id="weightliftingBelt"
                                  data-item-name="Weightlifting Belt"
-                                 data-item-price="45.99"
+                                 data-item-price=""
                                  data-item-weight="1000"
                                  data-item-url="http://villainusa.com/gear.html"
                                  data-item-categories="weightlifting gear"
@@ -444,7 +393,7 @@
                               </tr>
                               <tr>
                                   <td style="background-color: rgba(150,150,150,0.2);"><strong>Price</strong></td>
-                                  <td style="background-color: rgba(150,150,150,0.2);"><strong>$6.99</strong></td>
+                                  <td style="background-color: rgba(150,150,150,0.2);"><strong id="wristWrapsPrice"></strong></td>
                               </tr>
                         </table>
                       </div>
@@ -455,7 +404,7 @@
                               <a class="btn btn-outline-success d-block snipcart-add-item"
                                  data-item-id="wristWraps"
                                  data-item-name="Elastic Wrist Wraps"
-                                 data-item-price="6.99"
+                                 data-item-price=""
                                  data-item-weight="200"
                                  data-item-url="http://villainusa.com/gear.html"
                                  data-item-categories="weightlifting gear"
@@ -531,7 +480,7 @@
                                       </tr>
                               <tr>
                                   <td style="background-color: rgba(150,150,150,0.2);"><strong>Price</strong></td>
-                                  <td style="background-color: rgba(150,150,150,0.2);"><strong>$16.99</strong></td>
+                                  <td style="background-color: rgba(150,150,150,0.2);"><strong id="kneeSleevesPrice"></strong></td>
                               </tr>
                         </table>
                         <p class="text-center">Choose knee sleeve size from within shopping cart</p>
@@ -543,7 +492,7 @@
                               <a class="btn btn-outline-success d-block snipcart-add-item"
                                  data-item-id="kneeSleeves"
                                  data-item-name="Knee Sleeves"
-                                 data-item-price="16.99"
+                                 data-item-price=""
                                  data-item-weight="500"
                                  data-item-url="http://villainusa.com/gear.html"
                                  data-item-categories="weightlifting gear"
@@ -595,7 +544,7 @@
                         </tr>
                         <tr>
                             <td style="background-color: rgba(150,150,150,0.2);"><strong>Price</strong></td>
-                            <td style="background-color: rgba(150,150,150,0.2);"><strong>$11.99</strong></td>
+                            <td style="background-color: rgba(150,150,150,0.2);"><strong id="weightliftingStrapsPrice"></strong></td>
                         </tr>
                   </table>
                 </div>
@@ -606,7 +555,7 @@
                         <a class="btn btn-outline-success d-block snipcart-add-item"
                            data-item-id="weightliftingStraps"
                            data-item-name="Weightlifting Straps"
-                           data-item-price="11.99"
+                           data-item-price=""
                            data-item-weight="50"
                            data-item-url="http://villainusa.com/gear.html"
                            data-item-categories="weightlifting gear"
@@ -655,7 +604,7 @@
                         </tr>
                         <tr>
                             <td style="background-color: rgba(150,150,150,0.2);"><strong>Price</strong></td>
-                            <td style="background-color: rgba(150,150,150,0.2);"><strong>$11.99</strong></td>
+                            <td style="background-color: rgba(150,150,150,0.2);"><strong id="cottonWristWrapsPrice"></strong></td>
                         </tr>
                   </table>
                 </div>
@@ -666,7 +615,7 @@
                         <a class="btn btn-outline-success d-block snipcart-add-item"
                            data-item-id="cottonWristWraps"
                            data-item-name="Cotton Wrist Wraps"
-                           data-item-price="11.99"
+                           data-item-price=""
                            data-item-weight="50"
                            data-item-url="http://villainusa.com/gear.html"
                            data-item-categories="weightlifting gear"
@@ -691,30 +640,15 @@
 
 <!--Footer-->
 
-<div class="container-fluid myFooter">
-    <div class="row mx-auto">
-      <div class="col-6 col-md-4 mx-auto footerColumn1">
-        <a href="customization.html" class="footerLink">Customization</a><br>
-        <a href="ordering.html" class="footerLink">Placing an Order</a><br>
-        <a href="production.html" class="footerLink">Production Facilities</a>
-      </div>
-      <div class="col-6 col-md-4 mx-auto footerColumn2">
-          <a href="shipping.html" class="footerLink">Shipping</a><br>
-          <a href="policies.html" class="footerLink">Product Policies</a><br>
-          <a href="contact.html" class="footerLink">Contact Us</a>
-      </div>
-      <div class="col-6 col-md-4 mx-auto footerColumn3">
-          <h1 class="footerItem"><a href="index.html">VillainUSA</a></h1><br>
-          <p class="footerItem">©2019 VillainUSA LLC</p>
-      </div>
-    </div>
+<div class="container-fluid myFooter" id="myFooter">
 </div>
 
         <!-- Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="MTI3ZThhZDYtNDAzZi00MGQ3LTllOGYtYzY3MzEzMGRlZjNhNjM3MDQxODk5NDIzNjk3MDQw"></script>
+    <script src="script.js"></script>
     </body>
     </html>
