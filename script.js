@@ -192,7 +192,7 @@ addItemButtons.forEach(function(addItemButton) {
     } else if(addItemButton.matches('[data-item-id="1kgChangePlate"]')) {
                 
         // 1kg Change Plate
-        setPrice('9.99', '1kgChangePlatePrice');
+        setPrice('7.99', '1kgChangePlatePrice');
 
     } else if(addItemButton.matches('[data-item-id="1.25kgChangePlate"]')) {
                 
