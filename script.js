@@ -508,7 +508,7 @@ addItemButtons.forEach(function(addItemButton) {
     } else if(addItemButton.matches('[data-item-id="18inBox"]')) {
                 
         // 18in Box
-        setPrice('119.99', '18inBoxPrice');
+        setPrice('219.99', '18inBoxPrice');
 
     } else if(addItemButton.matches('[data-item-id="24inBox"]')) {
                 
