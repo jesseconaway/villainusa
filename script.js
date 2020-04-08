@@ -384,42 +384,42 @@ addItemButtons.forEach(function(addItemButton) {
         ----------------------------------------------------------*/
 
         // 25lb Training Plate
-        setPrice('79.99', '25lbTrainingPlatePrice');
+        setPrice('74.99', '25lbTrainingPlatePrice');
 
     } else if(addItemButton.matches('[data-item-id="35lbTrainingPlate"]')) {
                 
         // 35lb Training Plate
-        setPrice('99.99', '35lbTrainingPlatePrice');
+        setPrice('91.99', '35lbTrainingPlatePrice');
 
     } else if(addItemButton.matches('[data-item-id="45lbTrainingPlate"]')) {
                 
         // 45lb Training Plate
-        setPrice('119.99', '45lbTrainingPlatePrice');
+        setPrice('108.99', '45lbTrainingPlatePrice');
 
     } else if(addItemButton.matches('[data-item-id="55lbTrainingPlate"]')) {
                 
         // 55lb Training Plate
-        setPrice('139.99', '55lbTrainingPlatePrice');
+        setPrice('129.99', '55lbTrainingPlatePrice');
 
     } else if(addItemButton.matches('[data-item-id="10kgTrainingPlate"]')) {
                 
         // 10kg Training Plate
-        setPrice('74.99', '10kgTrainingPlatePrice');
+        setPrice('69.99', '10kgTrainingPlatePrice');
 
     } else if(addItemButton.matches('[data-item-id="15kgTrainingPlate"]')) {
                 
         // 15kg Training Plate
-        setPrice('92.99', '15kgTrainingPlatePrice');
+        setPrice('86.99', '15kgTrainingPlatePrice');
 
     } else if(addItemButton.matches('[data-item-id="20kgTrainingPlate"]')) {
                 
         // 20kg Training Plate
-        setPrice('114.99', '20kgTrainingPlatePrice');
+        setPrice('106.99', '20kgTrainingPlatePrice');
 
     } else if(addItemButton.matches('[data-item-id="25kgTrainingPlate"]')) {
                 
         // 25kg Training Plate
-        setPrice('134.99', '25kgTrainingPlatePrice');
+        setPrice('129.99', '25kgTrainingPlatePrice');
 
     } else if(addItemButton.matches('[data-item-id="2.5kgTechniquePlate"]')) {
                 
