@@ -980,6 +980,11 @@ addItemButtons.forEach(function(addItemButton) {
         // Platform
         setPrice('749.99', 'platformPrice');
 
+    } else if(addItemButton.matches('[data-item-id="squatRack"]')) {
+                
+        // Squat Rack
+        setPrice('259.99', 'squatRackPrice');
+
     }
     
 });
