@@ -241,97 +241,97 @@ addItemButtons.forEach(function(addItemButton) {
         ----------------------------------------------------------*/
 
         // 25lb Competition Plate
-        setPrice('79.99', '25lbCompetitionPlatePrice');
+        setPrice('87.99', '25lbCompetitionPlatePrice');
 
     } else if(addItemButton.matches('[data-item-id="35lbCompetitionPlate"]')) {
                 
         // 35lb Competition Plate
-        setPrice('97.99', '35lbCompetitionPlatePrice');
+        setPrice('107.99', '35lbCompetitionPlatePrice');
 
     } else if(addItemButton.matches('[data-item-id="45lbCompetitionPlate"]')) {
                 
         // 45lb Competition Plate
-        setPrice('117.99', '45lbCompetitionPlatePrice');
+        setPrice('129.99', '45lbCompetitionPlatePrice');
 
     } else if(addItemButton.matches('[data-item-id="55lbCompetitionPlate"]')) {
                 
         // 55lb Competition Plate
-        setPrice('134.99', '55lbCompetitionPlatePrice');
+        setPrice('148.99', '55lbCompetitionPlatePrice');
 
     } else if(addItemButton.matches('[data-item-id="10kgCompetitionPlate"]')) {
                 
         // 10kg Competition Plate
-        setPrice('74.99', '10kgCompetitionPlatePrice');
+        setPrice('83.99', '10kgCompetitionPlatePrice');
 
     } else if(addItemButton.matches('[data-item-id="15kgCompetitionPlate"]')) {
                 
         // 15kg Competition Plate
-        setPrice('92.99', '15kgCompetitionPlatePrice');
+        setPrice('101.99', '15kgCompetitionPlatePrice');
 
     } else if(addItemButton.matches('[data-item-id="20kgCompetitionPlate"]')) {
                 
         // 20kg Competition Plate
-        setPrice('114.99', '20kgCompetitionPlatePrice');
+        setPrice('126.99', '20kgCompetitionPlatePrice');
 
     } else if(addItemButton.matches('[data-item-id="25kgCompetitionPlate"]')) {
                 
         // 25kg Competition Plate
-        setPrice('134.99', '25kgCompetitionPlatePrice');
+        setPrice('148.99', '25kgCompetitionPlatePrice');
 
     } else if(addItemButton.matches('[data-item-id="10lbEconomyPlate"]')) {
                 
         // 10lb Economy Plate
-        setPrice('22.99', '10lbEconomyPlatePrice');
+        setPrice('25.99', '10lbEconomyPlatePrice');
 
     } else if(addItemButton.matches('[data-item-id="15lbEconomyPlate"]')) {
                 
         // 15lb Economy Plate
-        setPrice('29.99', '15lbEconomyPlatePrice');
+        setPrice('32.99', '15lbEconomyPlatePrice');
 
     } else if(addItemButton.matches('[data-item-id="25lbEconomyPlate"]')) {
                 
         // 25lb Economy Plate
-        setPrice('36.99', '25lbEconomyPlatePrice');
+        setPrice('40.99', '25lbEconomyPlatePrice');
 
     } else if(addItemButton.matches('[data-item-id="35lbEconomyPlate"]')) {
                 
         // 35lb Economy Plate
-        setPrice('52.99', '35lbEconomyPlatePrice');
+        setPrice('57.99', '35lbEconomyPlatePrice');
 
     } else if(addItemButton.matches('[data-item-id="45lbEconomyPlate"]')) {
                 
         // 45lb Economy Plate
-        setPrice('69.99', '45lbEconomyPlatePrice');
+        setPrice('76.99', '45lbEconomyPlatePrice');
 
     } else if(addItemButton.matches('[data-item-id="55lbEconomyPlate"]')) {
                 
         // 55lb Economy Plate
-        setPrice('79.99', '55lbEconomyPlatePrice');
+        setPrice('87.99', '55lbEconomyPlatePrice');
 
     } else if(addItemButton.matches('[data-item-id="5kgEconomyPlate"]')) {
                 
         // 5kg Economy Plate
-        setPrice('24.99', '5kgEconomyPlatePrice');
+        setPrice('27.99', '5kgEconomyPlatePrice');
 
     } else if(addItemButton.matches('[data-item-id="10kgEconomyPlate"]')) {
                 
         // 10kg Economy Plate
-        setPrice('34.99', '10kgEconomyPlatePrice');
+        setPrice('38.99', '10kgEconomyPlatePrice');
 
     } else if(addItemButton.matches('[data-item-id="15kgEconomyPlate"]')) {
                 
         // 15kg Economy Plate
-        setPrice('49.99', '15kgEconomyPlatePrice');
+        setPrice('54.99', '15kgEconomyPlatePrice');
 
     } else if(addItemButton.matches('[data-item-id="20kgEconomyPlate"]')) {
                 
         // 20kgEconomy Plate
-        setPrice('69.99', '20kgEconomyPlatePrice');
+        setPrice('76.99', '20kgEconomyPlatePrice');
 
     } else if(addItemButton.matches('[data-item-id="25kgEconomyPlate"]')) {
                 
         // 25kg Economy Plate
-        setPrice('84.99', '25kgEconomyPlatePrice');
+        setPrice('93.99', '25kgEconomyPlatePrice');
 
     } else if(addItemButton.matches('[data-item-id="25lbStripedPlate"]')) {
         
