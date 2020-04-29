@@ -192,7 +192,7 @@ addItemButtons.forEach(function(addItemButton) {
     } else if(addItemButton.matches('[data-item-id="1kgChangePlate"]')) {
                 
         // 1kg Change Plate
-        setPrice('7.99', '1kgChangePlatePrice');
+        setPrice('9.99', '1kgChangePlatePrice');
 
     } else if(addItemButton.matches('[data-item-id="1.25kgChangePlate"]')) {
                 
@@ -468,7 +468,7 @@ addItemButtons.forEach(function(addItemButton) {
     } else if(addItemButton.matches('[data-item-id="weightliftingBelt"]')) {
                 
         // Weightlifting Belt
-        setPrice('45.99', 'weightliftingBeltPrice');
+        setPrice('65.99', 'weightliftingBeltPrice');
 
     } else if(addItemButton.matches('[data-item-id="wristWraps"]')) {
                 
