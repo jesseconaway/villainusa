@@ -7,19 +7,29 @@
   color: white;
 }
 
-.navbar-dark, .bg-dark {
+.navbar-dark,
+.bg-dark {
   background-color: black !important;
 }
 
 .container > span::after {
   color: red;
-  content: "Notice: Due to high order volume, these products are currently available only for pre-order. Shipping will take 6-8 weeks. If you have questions, please contact us. Thank you for your patience.";
+  content: "";
   font-size: 1.3rem;
+}
+
+div#snipcart-global-notices::after {
+  background-color: #222;
+  display: block;
+  padding: 0 2.4em 1.5em 2.4em;
+  font-size: 1em;
+  content: "NOTICE: For shipping reasons, maximum order weight is 150lbs. If your order exceeds this amount, we ask you to please complete multiple orders, and we apologize for the inconvenience.";
+  color: red;
 }
 
 span.plateNotification::after {
   color: red;
-  content: "Notice: Due to high order volume, these products are currently available only for pre-order. Shipping will take 6-8 weeks. If you have questions, please contact us. Thank you for your patience.";
+  content: "";
   font-size: 1.3rem;
 }
 
@@ -29,12 +39,15 @@ span.plateNotification::after {
   content: "For orders in Canada, click here.";
 }
 
-nav:hover nav ul:hover, nav li:hover, nav a:hover {
+nav:hover nav ul:hover,
+nav li:hover,
+nav a:hover {
   color: red !important;
   background-color: inherit !important;
 }
 
-.dropdown-menu, .dropdown-item {
+.dropdown-menu,
+.dropdown-item {
   background-color: black;
   color: white;
 }
@@ -54,14 +67,18 @@ body {
   overflow-x: hidden;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 700;
 }
 
 .btn {
   border: 2px solid red;
-  padding: .340rem .75rem;
+  padding: 0.34rem 0.75rem;
 }
 
 .btn-outline-success {
@@ -75,7 +92,14 @@ h1, h2, h3, h4, h5 {
   border-color: red;
 }
 
-.btn-outline-success:not(:disabled):not(.disabled).active, .btn-outline-success:not(:disabled):not(.disabled):active, .btn-outline-success.focus, .btn-outline-success:focus, .btn-outline-success:not(:disabled):not(.disabled).active:focus, .btn-outline-success:not(:disabled):not(.disabled):active:focus, .show > .btn-outline-success.dropdown-toggle:focus, .btn:hover:active {
+.btn-outline-success:not(:disabled):not(.disabled).active,
+.btn-outline-success:not(:disabled):not(.disabled):active,
+.btn-outline-success.focus,
+.btn-outline-success:focus,
+.btn-outline-success:not(:disabled):not(.disabled).active:focus,
+.btn-outline-success:not(:disabled):not(.disabled):active:focus,
+.show > .btn-outline-success.dropdown-toggle:focus,
+.btn:hover:active {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.5);
           box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.5);
   background-color: #9b0000;
@@ -97,11 +121,13 @@ h1, h2, h3, h4, h5 {
   text-align: left;
 }
 
-.carousel-caption h1, .carousel-caption p {
+.carousel-caption h1,
+.carousel-caption p {
   text-shadow: 0px 0px 4px black;
 }
 
-.h1, h1 {
+.h1,
+h1 {
   font-size: 1.5rem;
 }
 
@@ -158,7 +184,8 @@ h1, h2, h3, h4, h5 {
   background-blend-mode: overlay;
 }
 
-.h3, h3 {
+.h3,
+h3 {
   font-size: 1rem;
 }
 
@@ -325,7 +352,8 @@ h1, h2, h3, h4, h5 {
   text-align: center;
 }
 
-.footerLink:hover, .footerItem a:hover {
+.footerLink:hover,
+.footerItem a:hover {
   color: red;
   text-decoration: none;
 }
@@ -355,7 +383,7 @@ h1, h2, h3, h4, h5 {
 
 .footerItem {
   text-align: center;
-  line-height: .5em;
+  line-height: 0.5em;
   margin-bottom: 0;
   padding: 0;
 }
@@ -543,12 +571,15 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Plate product page */
-table, th, td {
+table,
+th,
+td {
   border-collapse: collapse;
   border: 2px solid white;
 }
 
-th, td {
+th,
+td {
   padding: 5px;
   text-align: center;
 }
@@ -663,7 +694,8 @@ th, td {
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
-  .h3, h3 {
+  .h3,
+  h3 {
     font-size: 1.25rem;
   }
   .cardText {
@@ -687,10 +719,12 @@ th, td {
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-  .h1, h1 {
+  .h1,
+  h1 {
     font-size: 2.5rem;
   }
-  .h3, h3 {
+  .h3,
+  h3 {
     font-size: 1.25rem;
   }
   .carousel-caption {
@@ -766,7 +800,8 @@ th, td {
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
-  .h3, h3 {
+  .h3,
+  h3 {
     font-size: 1.5rem;
   }
   .productSpecs {
@@ -825,13 +860,16 @@ th, td {
     width: auto;
     margin-top: 7px;
   }
-  .economyPlateTable th, .economyPlateTable td {
+  .economyPlateTable th,
+  .economyPlateTable td {
     padding: 1px;
   }
-  .economyPlateThicknessTable th, .economyPlateThicknessTable td {
+  .economyPlateThicknessTable th,
+  .economyPlateThicknessTable td {
     padding: 1px;
   }
-  .stripedPlateThicknessTable th, .stripedPlateThicknessTable td {
+  .stripedPlateThicknessTable th,
+  .stripedPlateThicknessTable td {
     padding: 2px;
   }
   .compVinylKb {
@@ -844,7 +882,8 @@ th, td {
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
-  .h3, h3 {
+  .h3,
+  h3 {
     font-size: 1.75rem;
   }
   .productSpecs {
@@ -879,13 +918,16 @@ th, td {
   .productPageCarousel {
     width: 80%;
   }
-  .economyPlateTable th, .economyPlateTable td {
+  .economyPlateTable th,
+  .economyPlateTable td {
     padding: 4px;
   }
-  .stripedPlateThicknessTable th, .stripedPlateThicknessTable td {
+  .stripedPlateThicknessTable th,
+  .stripedPlateThicknessTable td {
     padding: 5px;
   }
-  .platePriceTable1 th, .platePriceTable1 td {
+  .platePriceTable1 th,
+  .platePriceTable1 td {
     padding: 8px;
   }
   .compVinylKb {
